@@ -17,14 +17,14 @@
   --ink-soft: #43536e;
   --line-light: rgba(145, 208, 247, 0.26);
   --line-dark: rgba(36, 87, 137, 0.2);
-  --serif: "Noto Serif Display", "Noto Serif", Georgia, "Times New Roman", serif;
+  --serif: Georgia, Cambria, "Times New Roman", "Liberation Serif", serif;
   --sans: "Satoshi", "Segoe UI", "Noto Sans", Arial, sans-serif;
   --mono: "SFMono-Regular", Consolas, "Liberation Mono", monospace;
 }
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; scroll-padding-top: 88px; }
-body { margin: 0; overflow-x: hidden; color: #eef7ff; background: var(--night-950); font-family: var(--sans); -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; }
+body { margin: 0; overflow-x: hidden; color: #eef7ff; background: var(--night-950); font-family: var(--sans); -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility; font-synthesis: none; }
 a { color: inherit; text-decoration: none; }
 button, a { -webkit-tap-highlight-color: transparent; }
 button { font: inherit; }
@@ -33,7 +33,7 @@ img { display: block; max-width: 100%; }
 ::selection { color: var(--night-950); background: var(--sky-350); }
 
 .section-shell { width: min(1240px, calc(100% - 48px)); margin-inline: auto; }
-.star-canvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+.star-canvas { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; filter: brightness(1.16) saturate(1.08); }
 .section-whisper { max-width: 62ch; margin: 0 0 28px; color: #53708f; font-size: 15px; line-height: 1.7; }
 .section-whisper.light { color: #9bbbd8; }
 
@@ -44,9 +44,10 @@ img { display: block; max-width: 100%; }
 .site-header { position: fixed; inset: 0 0 auto; z-index: 80; border-bottom: 1px solid rgba(178,221,255,.12); background: color-mix(in srgb, var(--night-980) 80%, transparent); backdrop-filter: blur(18px) saturate(130%); }
 .header-inner { width: min(1340px, calc(100% - 40px)); min-height: 78px; margin-inline: auto; display: flex; align-items: center; justify-content: space-between; gap: 30px; }
 .school-brand { min-width: 0; display: flex; align-items: center; gap: 14px; }
-.school-logo { position: relative; width: 52px; height: 52px; flex: 0 0 auto; display: grid; place-items: center; overflow: hidden; border-radius: 50%; background: #fff; box-shadow: 0 0 0 1px rgba(255,255,255,.5), 0 0 22px rgba(225,218,164,.42), 0 10px 28px rgba(0,0,0,.3); }
-.school-logo::after { content: ""; position: absolute; inset: -6px; border: 1px solid rgba(235,228,185,.38); border-radius: inherit; }
-.school-logo img { width: 100%; height: 100%; object-fit: cover; }
+.school-logo { position: relative; width: 62px; height: 54px; flex: 0 0 auto; display: grid; place-items: center; overflow: visible; }
+.school-logo::before { content: ""; position: absolute; width: 56px; height: 56px; border: 1px solid rgba(238,224,166,.5); border-radius: 50%; box-shadow: 0 0 22px rgba(226,216,157,.34); opacity: .75; }
+.school-logo::after { content: ""; position: absolute; width: 4px; height: 4px; right: 1px; top: 8px; border-radius: 50%; background: #f3e7b6; box-shadow: 0 0 9px #f1dfa0; }
+.school-logo img { position: relative; z-index: 2; width: 58px; height: 52px; object-fit: contain; filter: drop-shadow(0 8px 14px rgba(0,0,0,.28)); }
 .school-wordmark strong { display: block; font-size: 18px; font-weight: 750; letter-spacing: .08em; }
 .school-wordmark small { display: block; color: #9ab6d1; font-size: 10px; letter-spacing: .025em; white-space: nowrap; }
 .site-header nav { display: flex; align-items: center; gap: clamp(20px, 2.6vw, 40px); }
@@ -57,36 +58,49 @@ img { display: block; max-width: 100%; }
 .menu-button svg { width: 22px; margin: auto; }
 
 /* Welcome book */
-.welcome-shell { position: fixed; inset: 0; z-index: 200; display: grid; place-items: center; overflow: hidden; clip-path: inset(0 0 0 0); background: radial-gradient(circle at 50% 38%, #102e5c 0%, #06152f 42%, #020817 100%); }
-.welcome-night { position: absolute; inset: 0; background-image: radial-gradient(circle at 18% 22%, rgba(125,206,255,.16), transparent 20%), radial-gradient(circle at 82% 78%, rgba(105,173,241,.12), transparent 24%); }
-.welcome-night::before { content: ""; position: absolute; inset: 0; opacity: .56; background-image: radial-gradient(circle, rgba(235,249,255,.92) 0 1px, transparent 1.5px); background-size: 77px 69px; background-position: 11px 18px; }
-.welcome-spark { position: absolute; color: #b9eaff; }
+html[data-intro-seen="true"] .welcome-shell { display: none; }
+.welcome-shell { position: fixed; inset: 0; z-index: 2147483000; display: grid; place-items: center; overflow: hidden; background: radial-gradient(circle at 50% 34%, #163767 0%, #071730 40%, #020817 100%); contain: layout paint; will-change: opacity; }
+.welcome-night { position: absolute; inset: 0; background-image: radial-gradient(circle at 18% 22%, rgba(125,206,255,.18), transparent 20%), radial-gradient(circle at 82% 78%, rgba(105,173,241,.13), transparent 24%); }
+.welcome-night::before, .welcome-night::after { content: ""; position: absolute; inset: 0; }
+.welcome-night::before { opacity: .62; background-image: radial-gradient(circle, rgba(235,249,255,.95) 0 1px, transparent 1.8px); background-size: 72px 66px; background-position: 12px 19px; animation: introStarDrift 18s linear infinite; }
+.welcome-night::after { opacity: .22; background: radial-gradient(circle at 50% 50%, rgba(159, 220, 255, .22), transparent 55%); filter: blur(14px); }
+.welcome-spark { position: absolute; color: #b9eaff; opacity: 0; transform: scale(0) rotate(-18deg); animation: introSparkle 4.8s ease-in-out infinite; }
 .welcome-spark svg { width: 28px; }
-.spark-one { left: 11%; top: 20%; }
-.spark-two { right: 12%; top: 27%; transform: scale(.7); }
-.spark-three { right: 23%; bottom: 13%; transform: scale(.5); }
-.welcome-skip { position: absolute; right: 30px; top: 26px; z-index: 3; border: 0; border-bottom: 1px solid rgba(255,255,255,.35); color: #d8eafa; background: transparent; cursor: pointer; font-size: 13px; }
-.welcome-book { position: absolute; left: 50%; top: 46%; width: min(380px, 43vw); aspect-ratio: .74; transform: translate(-50%, -50%); perspective: 1300px; transform-style: preserve-3d; }
-.welcome-book-back, .welcome-page-stack, .welcome-page-front, .welcome-book-cover { position: absolute; inset: 0; border-radius: 6px 16px 16px 6px; transform-style: preserve-3d; backface-visibility: hidden; }
-.welcome-book-back { transform: translate(10px, 10px); background: #07172e; box-shadow: 0 40px 80px rgba(0,0,0,.48); }
-.welcome-page-stack { inset: 8px -8px 8px 8px; background: repeating-linear-gradient(90deg, #f0f2ef 0 4px, #dce5eb 5px 6px); border-radius: 3px 14px 14px 3px; }
-.welcome-page-front { inset: 8px 0 8px 8px; z-index: 2; background: linear-gradient(90deg, #edf1f3, #fff 82%); box-shadow: inset 10px 0 18px rgba(4,25,50,.12); }
-.welcome-book-cover { z-index: 4; display: flex; flex-direction: column; align-items: center; justify-content: center; padding: 36px; text-align: center; color: #eaf7ff; background: linear-gradient(145deg, #0c2b55, #05172f 72%); border: 1px solid rgba(148,216,255,.38); box-shadow: inset 0 0 0 8px rgba(255,255,255,.018), 0 38px 90px rgba(0,0,0,.52); }
-.welcome-book-cover::before { content: ""; position: absolute; inset: 22px; border: 1px solid rgba(146,213,255,.24); }
-.welcome-book-cover svg { width: 42px; margin-bottom: 30px; color: #b7e7ff; filter: drop-shadow(0 0 12px rgba(107,207,255,.48)); }
-.welcome-book-cover span { margin-bottom: 10px; color: #8fccea; font-family: var(--mono); font-size: 10px; letter-spacing: .15em; text-transform: uppercase; }
-.welcome-book-cover strong { max-width: 250px; font-family: var(--serif); font-size: clamp(28px, 3vw, 45px); line-height: 1.06; font-weight: 500; }
-.welcome-book-cover small { margin-top: 18px; color: #a9bfd2; font-size: 11px; letter-spacing: .1em; }
-.welcome-glow { position: absolute; left: 7px; top: 5%; bottom: 5%; z-index: 1; width: 12px; opacity: 0; transform-origin: center; background: linear-gradient(90deg, transparent, rgba(196,237,255,.9), transparent); filter: blur(7px); }
-.welcome-title { position: absolute; z-index: 6; left: calc(50% + min(265px, 29vw)); top: 50%; width: min(500px, 37vw); transform: translateY(-50%); }
+.spark-one { left: 11%; top: 20%; animation-delay: .1s; }
+.spark-two { right: 12%; top: 27%; transform: scale(.7); animation-delay: .8s; }
+.spark-three { right: 23%; bottom: 13%; transform: scale(.5); animation-delay: 1.4s; }
+.welcome-skip { position: absolute; right: 30px; top: 26px; z-index: 8; border: 0; border-bottom: 1px solid rgba(255,255,255,.35); color: #d8eafa; background: transparent; cursor: pointer; font-size: 13px; }
+.welcome-book { position: absolute; left: 50%; top: 46%; width: min(388px, 43vw); aspect-ratio: .74; opacity: 1; visibility: visible; translate: -50% -50%; transform: translateY(28px) rotateX(-6deg) scale(.95); perspective: 1300px; transform-style: preserve-3d; will-change: transform, opacity, filter; }
+.welcome-book-shadow { position: absolute; inset: auto 20px -18px; height: 34px; border-radius: 50%; background: radial-gradient(circle, rgba(0,0,0,.48) 0%, rgba(0,0,0,0) 72%); filter: blur(10px); }
+.welcome-book-cover { position: absolute; inset: 0; z-index: 4; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0; padding: 34px; text-align: center; color: #eaf7ff; border-radius: 9px 18px 18px 9px; border: 1px solid rgba(148,216,255,.38); background: linear-gradient(145deg, rgba(11,43,86,.97), rgba(6,19,42,.98) 68%), radial-gradient(circle at 50% 35%, rgba(115,198,255,.11), transparent 42%); box-shadow: inset 0 0 0 8px rgba(255,255,255,.018), inset 0 0 0 1px rgba(255,255,255,.06), 0 38px 90px rgba(0,0,0,.52); transform-style: preserve-3d; backface-visibility: hidden; }
+.welcome-book-cover::before { content: ""; position: absolute; inset: 20px; border: 1px solid rgba(146,213,255,.24); border-radius: 4px 12px 12px 4px; }
+.welcome-book-cover::after { content: ""; position: absolute; left: 18px; top: 18px; bottom: 18px; width: 6px; border-radius: 8px; background: linear-gradient(180deg, rgba(255,255,255,.13), rgba(255,255,255,0)); opacity: .42; }
+.welcome-book-logo-wrap { position: relative; z-index: 2; display: grid; place-items: center; gap: 12px; margin-bottom: 26px; }
+.welcome-book-logo { width: 88px; height: 78px; object-fit: contain; filter: drop-shadow(0 10px 20px rgba(0,0,0,.34)); }
+.welcome-book-badge { display: inline-flex; align-items: center; gap: 8px; padding: 8px 12px; border-radius: 999px; color: #cfefff; background: rgba(255,255,255,.05); border: 1px solid rgba(171,223,255,.16); font-family: var(--mono); font-size: 9px; letter-spacing: .12em; text-transform: uppercase; }
+.welcome-book-stars { position: absolute; inset: 28px 30px auto auto; display: flex; gap: 8px; color: #c3efff; opacity: .8; }
+.welcome-book-stars svg { width: 16px; filter: drop-shadow(0 0 8px rgba(107,207,255,.42)); }
+.welcome-book-cover > span { margin-bottom: 10px; color: #8fccea; font-family: var(--mono); font-size: 10px; letter-spacing: .15em; text-transform: uppercase; }
+.welcome-book-cover strong { position: relative; z-index: 2; max-width: 260px; font-family: var(--serif); font-size: clamp(28px, 3vw, 44px); line-height: 1.04; font-weight: 500; }
+.welcome-book-cover small { margin-top: 16px; color: #a9bfd2; font-size: 11px; letter-spacing: .1em; }
+.welcome-book-meta { position: relative; z-index: 2; display: grid; gap: 8px; margin-top: 28px; }
+.welcome-book-meta em, .welcome-book-meta b { font-style: normal; font-size: 11px; }
+.welcome-book-meta em { color: #dbefff; }
+.welcome-book-meta b { color: #82cefb; font-family: var(--mono); letter-spacing: .1em; text-transform: uppercase; }
+.welcome-glow { position: absolute; left: 10px; top: 5%; bottom: 5%; z-index: 1; width: 16px; opacity: .28; transform-origin: center; background: linear-gradient(90deg, transparent, rgba(196,237,255,.85), transparent); filter: blur(8px); }
+.welcome-title { position: absolute; z-index: 6; left: calc(50% + min(265px, 29vw)); top: 50%; width: min(500px, 37vw); transform: translateY(-50%); will-change: transform, opacity, filter; }
+.welcome-title > * { opacity: 0; transform: translateY(22px); }
 .welcome-title > p { margin: 0 0 20px; color: #99d8f8; font-size: 14px; font-weight: 650; letter-spacing: .03em; }
 .welcome-title h1 { margin: 0; max-width: 480px; font-family: var(--serif); font-size: clamp(34px, 4vw, 62px); line-height: 1.08; font-weight: 400; text-wrap: balance; }
-.welcome-title button { display: inline-flex; align-items: center; gap: 11px; min-height: 52px; margin-top: 34px; padding: 0 20px; border: 1px solid rgba(181,229,255,.42); border-radius: 7px; color: #06152d; background: #c8edff; cursor: pointer; font-weight: 720; }
+.welcome-title button { display: inline-flex; align-items: center; gap: 11px; min-height: 52px; margin-top: 34px; padding: 0 20px; border: 1px solid rgba(181,229,255,.42); border-radius: 7px; color: #06152d; background: #c8edff; cursor: pointer; font-weight: 720; box-shadow: 0 14px 34px rgba(53, 164, 229, .16); transition: transform .22s ease, box-shadow .22s ease; }
+.welcome-title button:hover { transform: translateY(-2px); box-shadow: 0 18px 42px rgba(53,164,229,.22); }
 .welcome-title button svg { width: 20px; }
 .welcome-title small { display: block; margin-top: 16px; color: #7895b0; font-size: 11px; }
+@keyframes introStarDrift { from { transform: translateY(0); } 50% { transform: translateY(-6px); } to { transform: translateY(0); } }
+@keyframes introSparkle { 0%, 100% { opacity: .3; transform: scale(.86) rotate(-10deg); } 50% { opacity: 1; transform: scale(1.08) rotate(3deg); } }
 
 /* Hero */
-.hero { position: relative; min-height: 100svh; padding: 144px 0 82px; overflow: hidden; background: linear-gradient(142deg, #030c20 0%, #071b3a 55%, #0b2c59 100%); }
+.hero { position: relative; min-height: 100svh; padding: 144px 0 82px; overflow: hidden; background: linear-gradient(142deg, #05142f 0%, #0a2349 55%, #11386d 100%); }
 .hero-haze { position: absolute; width: 780px; height: 780px; right: -230px; bottom: -330px; border-radius: 50%; background: radial-gradient(circle, rgba(50,130,210,.2), transparent 68%); filter: blur(10px); }
 .moon { position: absolute; border-radius: 50%; background: radial-gradient(circle at 35% 32%, #fff 0%, #edf5ff 35%, #c6d9f2 72%, #9ebbe1 100%); box-shadow: inset -18px -14px 28px rgba(60,102,156,.18), 0 0 55px rgba(193,222,255,.22); }
 .moon-hero { top: 98px; right: 7.5%; width: 94px; height: 94px; opacity: .88; }
@@ -185,7 +199,7 @@ img { display: block; max-width: 100%; }
 .purpose-list p { color: #a5bfd5; line-height: 1.65; }
 
 /* Constellation */
-.contents-section { position: relative; min-height: 1050px; padding: 150px 0 130px; overflow: hidden; background: radial-gradient(circle at 69% 48%, rgba(35,110,187,.22), transparent 30%), linear-gradient(155deg, #020b1c, #071b3b 58%, #0a2b57); }
+.contents-section { position: relative; min-height: 1050px; padding: 150px 0 130px; overflow: hidden; background: radial-gradient(circle at 69% 48%, rgba(53,137,220,.28), transparent 32%), linear-gradient(155deg, #041128, #0a244c 58%, #10376c); }
 .moon-contents { width: 78px; height: 78px; right: 8%; top: 120px; opacity: .92; }
 .contents-layout { position: relative; z-index: 2; }
 .contents-heading { display: grid; grid-template-columns: .72fr 1.28fr; gap: 90px; align-items: end; }
@@ -232,7 +246,7 @@ img { display: block; max-width: 100%; }
 .challenge-note p { margin: 0; max-width: 90ch; color: #afc7dc; line-height: 1.72; }
 
 /* Closing */
-.closing-section { position: relative; min-height: 780px; display: grid; place-items: center; overflow: hidden; text-align: center; background: radial-gradient(circle at 50% 55%, rgba(37,112,188,.25), transparent 35%), #030d21; }
+.closing-section { position: relative; min-height: 780px; display: grid; place-items: center; overflow: hidden; text-align: center; background: radial-gradient(circle at 50% 55%, rgba(58,145,226,.3), transparent 38%), #06162f; }
 .closing-constellation { position: absolute; width: min(900px, 88vw); opacity: .74; }
 .closing-constellation path { fill: none; stroke: rgba(137,214,255,.56); stroke-width: 1.4; stroke-dasharray: 900; stroke-dashoffset: 900; filter: drop-shadow(0 0 5px rgba(112,203,255,.46)); }
 .closing-constellation circle { fill: #e5f7ff; filter: drop-shadow(0 0 10px #74caff); }
@@ -244,10 +258,12 @@ img { display: block; max-width: 100%; }
 
 /* Footer */
 .site-footer { color: var(--ink); background: var(--moon); }
-.footer-layout { display: grid; grid-template-columns: 1.2fr .8fr; gap: 80px; padding: 95px 0 80px; }
+.footer-layout { display: grid; grid-template-columns: minmax(0, 1.18fr) minmax(340px, .82fr); gap: 72px; padding: 95px 0 80px; }
+.footer-layout > * { min-width: 0; }
 .footer-layout > div:first-child > svg { width: 30px; color: #2b78ad; }
 .footer-layout p { margin: 14px 0; color: #5d7690; font-size: 13px; }
-.footer-layout h2 { margin: 0; max-width: 680px; font-family: var(--serif); font-size: clamp(36px, 4.7vw, 62px); line-height: 1.08; font-weight: 400; }
+.footer-layout h2 { margin: 0; max-width: 680px; font-family: var(--serif); font-size: clamp(36px, 4.15vw, 58px); line-height: 1.12; letter-spacing: -.025em; font-weight: 400; text-wrap: pretty; font-kerning: normal; font-variant-ligatures: none; }
+.footer-layout h2 span { display: block; }
 .footer-links { align-self: end; border-top: 1px solid rgba(28,70,110,.26); }
 .footer-links a { display: flex; align-items: center; justify-content: space-between; gap: 18px; padding: 21px 0; border-bottom: 1px solid rgba(28,70,110,.18); font-size: 14px; font-weight: 650; }
 .footer-links svg { width: 19px; transition: transform .2s ease; }
@@ -342,7 +358,7 @@ img { display: block; max-width: 100%; }
   .site-header nav a { padding: 15px 12px; border-bottom: 1px solid rgba(255,255,255,.08); }
   .site-header nav a:last-child { border-bottom: 0; }
   .menu-button { display: grid; place-items: center; }
-  .welcome-book { left: 50%; top: 38%; width: min(310px, 62vw); }
+  .welcome-book { left: 50%; top: 38%; width: min(318px, 62vw); }
   .welcome-title { left: 50%; top: 76%; width: min(560px, calc(100% - 42px)); transform: translate(-50%, -50%); text-align: center; }
   .welcome-title h1 { margin-inline: auto; font-size: 34px; }
   .welcome-title button { margin-top: 20px; }
@@ -388,11 +404,11 @@ img { display: block; max-width: 100%; }
   html { scroll-padding-top: 72px; }
   .section-shell { width: calc(100% - 28px); }
   .header-inner { width: calc(100% - 24px); min-height: 68px; }
-  .school-logo { width: 43px; height: 43px; }
+  .school-logo { width: 50px; height: 45px; }
   .school-wordmark strong { font-size: 16px; }
   .school-wordmark small { max-width: 210px; overflow: hidden; text-overflow: ellipsis; }
   .welcome-skip { right: 18px; top: 18px; }
-  .welcome-book { top: 36%; width: min(260px, 68vw); }
+  .welcome-book { top: 36%; width: min(268px, 68vw); }
   .welcome-title { top: 74%; }
   .welcome-title > p { font-size: 12px; }
   .welcome-title h1 { font-size: 29px; }

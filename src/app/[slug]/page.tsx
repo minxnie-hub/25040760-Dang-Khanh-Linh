@@ -63,7 +63,7 @@ export default async function AssignmentPage({ params }: { params: Promise<{ slu
   return <main className="assignment-page">
     <SiteHeader />
     <section className="assignment-hero">
-      <StarCanvas density={0.72} quiet />
+      <StarCanvas density={0.92} quiet />
       <div className="assignment-moon" aria-hidden="true"><span>0{assignment.number}</span></div>
       <div className="section-shell assignment-hero-inner">
         <div>

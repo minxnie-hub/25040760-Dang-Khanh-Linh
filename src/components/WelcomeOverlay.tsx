@@ -1,6 +1,7 @@
 "use client";
 
 import { useEffect, useRef, useState } from "react";
+import { assetPath } from "@/lib/assets";
 import { BookIcon, SparkIcon } from "./Icons";
 import { gsap, useGSAP } from "@/lib/gsap";
 
@@ -8,14 +9,18 @@ const STORAGE_KEY = "khanh-linh-celestial-intro-seen";
 
 export function WelcomeOverlay() {
   const scope = useRef<HTMLDivElement>(null);
-  const [ready, setReady] = useState(false);
-  const [visible, setVisible] = useState(false);
+  const [visible, setVisible] = useState(true);
   const [opening, setOpening] = useState(false);
 
   useEffect(() => {
     const seen = window.sessionStorage.getItem(STORAGE_KEY);
-    setVisible(!seen);
-    setReady(true);
+    if (seen) {
+      document.documentElement.dataset.introSeen = "true";
+      setVisible(false);
+      return;
+    }
+
+    document.documentElement.dataset.introSeen = "false";
   }, []);
 
   useEffect(() => {
@@ -37,24 +42,38 @@ export function WelcomeOverlay() {
     if (!visible || !scope.current) return;
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     const timeline = gsap.timeline({ defaults: { ease: "power3.out" } });
+
     if (reduced) {
-      timeline.fromTo(".welcome-shell", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.25 });
+      timeline.fromTo(".welcome-shell", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.24 });
       return;
     }
+
     timeline
-      .fromTo(".welcome-book", { autoAlpha: 0, y: 36, rotationX: -8, scale: 0.94 }, { autoAlpha: 1, y: 0, rotationX: 0, scale: 1, duration: 0.8 })
-      .fromTo(".welcome-title > *", { y: 24, autoAlpha: 0 }, { y: 0, autoAlpha: 1, stagger: 0.09, duration: 0.55 }, "-=.42")
-      .fromTo(".welcome-spark", { scale: 0, rotation: -25 }, { scale: 1, rotation: 0, stagger: 0.08, duration: 0.45 }, "-=.36");
+      .fromTo(".welcome-book", { y: 28, rotationX: -6, scale: 0.95, autoAlpha: 0 }, { y: 0, rotationX: 0, scale: 1, autoAlpha: 1, duration: 0.74 })
+      .fromTo(".welcome-title > *", { y: 22, autoAlpha: 0 }, { y: 0, autoAlpha: 1, stagger: 0.08, duration: 0.52 }, "-=.36")
+      .fromTo(".welcome-spark", { scale: 0, rotation: -18, autoAlpha: 0 }, { scale: 1, rotation: 0, autoAlpha: 1, stagger: 0.07, duration: 0.42 }, "-=.34")
+      .fromTo(".welcome-book-badge", { y: 10, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.42 }, "-=.3");
   }, { scope, dependencies: [visible] });
+
+  function revealPage() {
+    document.documentElement.dataset.introOpening = "true";
+  }
+
+  function finishIntro() {
+    document.documentElement.dataset.introSeen = "true";
+    delete document.documentElement.dataset.introOpening;
+    setVisible(false);
+  }
 
   function dismiss(markSeen: boolean) {
     if (markSeen) window.sessionStorage.setItem(STORAGE_KEY, "1");
+    revealPage();
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     gsap.to(scope.current, {
       autoAlpha: 0,
-      duration: reduced ? 0.2 : 0.48,
+      duration: reduced ? 0.18 : 0.36,
       ease: "power2.inOut",
-      onComplete: () => setVisible(false),
+      onComplete: finishIntro,
     });
   }
 
@@ -62,49 +81,88 @@ export function WelcomeOverlay() {
     if (opening || !scope.current) return;
     setOpening(true);
     window.sessionStorage.setItem(STORAGE_KEY, "1");
+    revealPage();
+
     const reduced = window.matchMedia("(prefers-reduced-motion: reduce)").matches;
     if (reduced) {
       dismiss(false);
       return;
     }
+
     const timeline = gsap.timeline({
       defaults: { ease: "power3.inOut" },
-      onComplete: () => setVisible(false),
+      onComplete: finishIntro,
     });
+
     timeline
-      .to(".welcome-book-cover", { rotationY: -158, duration: 1.05, transformOrigin: "left center" })
-      .to(".welcome-page-front", { rotationY: -143, duration: 0.82, transformOrigin: "left center" }, "-=.72")
-      .to(".welcome-glow", { scaleX: 2.8, autoAlpha: 1, duration: 0.72 }, "-=.8")
-      .to(".welcome-title", { autoAlpha: 0, y: -16, duration: 0.3 }, "-=.54")
-      .to(".welcome-shell", { clipPath: "inset(0 0 0 100%)", duration: 0.82, ease: "power4.inOut" }, "-=.22");
+      .to(".welcome-book-cover", {
+        rotationY: -14,
+        rotationZ: -3,
+        xPercent: -4,
+        boxShadow: "0 46px 110px rgba(0,0,0,.54)",
+        duration: 0.22,
+      })
+      .to(".welcome-book", {
+        x: -82,
+        y: -8,
+        scale: 0.88,
+        rotation: -5,
+        autoAlpha: 0,
+        filter: "blur(4px)",
+        duration: 0.44,
+      }, 0.06)
+      .to(".welcome-title", {
+        x: 34,
+        autoAlpha: 0,
+        filter: "blur(3px)",
+        duration: 0.34,
+      }, 0.08)
+      .to(".welcome-shell", {
+        autoAlpha: 0,
+        duration: 0.38,
+      }, 0.18);
   }
 
-  if (!ready || !visible) return null;
+  if (!visible) return null;
 
-  return <div ref={scope} className="welcome-shell" role="dialog" aria-modal="true" aria-labelledby="welcome-heading">
-    <div className="welcome-night" aria-hidden="true">
-      <span className="welcome-spark spark-one"><SparkIcon /></span>
-      <span className="welcome-spark spark-two"><SparkIcon /></span>
-      <span className="welcome-spark spark-three"><SparkIcon /></span>
-    </div>
-    <button type="button" className="welcome-skip" onClick={() => dismiss(true)}>Bỏ qua lời chào</button>
-    <div className="welcome-book" aria-hidden="true">
-      <div className="welcome-book-back" />
-      <div className="welcome-page-stack" />
-      <div className="welcome-page-front" />
-      <div className="welcome-book-cover">
-        <SparkIcon />
-        <span>Celestial field notes</span>
-        <strong>Đặng Khánh Linh</strong>
-        <small>ULIS · QH2025</small>
+  return (
+    <div ref={scope} className="welcome-shell" role="dialog" aria-modal="true" aria-labelledby="welcome-heading">
+      <div className="welcome-night" aria-hidden="true">
+        <span className="welcome-spark spark-one"><SparkIcon /></span>
+        <span className="welcome-spark spark-two"><SparkIcon /></span>
+        <span className="welcome-spark spark-three"><SparkIcon /></span>
       </div>
-      <div className="welcome-glow" />
+
+      <button type="button" className="welcome-skip" onClick={() => dismiss(true)}>Bỏ qua lời chào</button>
+
+      <div className="welcome-book" aria-hidden="true">
+        <div className="welcome-book-shadow" />
+        <div className="welcome-book-cover">
+          <div className="welcome-book-logo-wrap">
+            <img src={assetPath("/ulis-logo.png")} alt="" className="welcome-book-logo" />
+            <span className="welcome-book-badge">ULIS constellation edition</span>
+          </div>
+          <div className="welcome-book-stars">
+            <SparkIcon />
+            <SparkIcon />
+          </div>
+          <span>Celestial field notes</span>
+          <strong>Đặng Khánh Linh</strong>
+          <small>Student portfolio · QH2025</small>
+          <div className="welcome-book-meta">
+            <em>University of Languages and International Studies</em>
+            <b>6 chapters · 1 journey</b>
+          </div>
+        </div>
+        <div className="welcome-glow" />
+      </div>
+
+      <div className="welcome-title">
+        <p>Chào cậu, cuốn sổ sao của tớ đã sẵn sàng.</p>
+        <h1 id="welcome-heading">Mỗi chương là một dấu mốc nhỏ trên hành trình học tập.</h1>
+        <button type="button" onClick={openBook}><BookIcon /> Mở cuốn sổ</button>
+        <small>Nhấn Enter để bắt đầu · Esc để bỏ qua</small>
+      </div>
     </div>
-    <div className="welcome-title">
-      <p>Chào cậu, cuốn sổ sao của tớ đã sẵn sàng.</p>
-      <h1 id="welcome-heading">Mỗi chương là một dấu mốc nhỏ trên hành trình học tập.</h1>
-      <button type="button" onClick={openBook}><BookIcon /> Mở cuốn sổ</button>
-      <small>Nhấn Enter để bắt đầu · Esc để bỏ qua</small>
-    </div>
-  </div>;
+  );
 }

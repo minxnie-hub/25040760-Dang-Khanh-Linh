@@ -47,7 +47,7 @@ export default function HomePage() {
     <HomeMotion />
 
     <section className="hero" id="trang-chu">
-      <StarCanvas density={1.1} />
+      <StarCanvas density={1.35} />
       <div className="moon moon-hero" aria-hidden="true" />
       <div className="hero-haze" aria-hidden="true" />
       <div className="hero-inner section-shell">
@@ -111,7 +111,7 @@ export default function HomePage() {
     </section>
 
     <section className="goals-section" id="muc-tieu">
-      <StarCanvas density={0.46} quiet />
+      <StarCanvas density={0.68} quiet />
       <div className="section-shell goals-layout">
         <header className="goals-intro" data-reveal>
           <p className="section-whisper light">Tớ muốn công nghệ hỗ trợ quá trình học, không thay thế quá trình tự học.</p>
@@ -136,7 +136,7 @@ export default function HomePage() {
     </section>
 
     <section className="contents-section" id="muc-luc">
-      <StarCanvas density={0.82} />
+      <StarCanvas density={1.05} />
       <div className="moon moon-contents" aria-hidden="true" />
       <div className="section-shell contents-layout">
         <header className="contents-heading" data-reveal>
@@ -171,7 +171,7 @@ export default function HomePage() {
     </section>
 
     <section className="closing-section">
-      <StarCanvas density={0.56} quiet />
+      <StarCanvas density={0.76} quiet />
       <svg className="closing-constellation" viewBox="0 0 900 360" aria-hidden="true">
         <path d="M72 226 211 98 348 178 493 62 644 142 817 80" />
         <path d="M348 178 462 287 644 142" />
@@ -187,7 +187,7 @@ export default function HomePage() {
 
     <footer className="site-footer" id="lien-he">
       <div className="section-shell footer-layout">
-        <div><MailIcon /><p>Kết nối với tớ</p><h2>Tớ sẽ rất vui nếu có thể được đồng hành cùng cậu.</h2></div>
+        <div className="footer-message"><MailIcon /><p>Kết nối với tớ</p><h2><span>Tớ sẽ rất vui nếu có thể</span><span>được đồng hành cùng cậu.</span></h2></div>
         <div className="footer-links">
           <a href="mailto:dangkhanhlinh20011006@gmail.com">dangkhanhlinh20011006@gmail.com <ArrowIcon /></a>
           <a href="https://www.facebook.com/jellojello.areuokayy" target="_blank" rel="noreferrer">Facebook · jellojello.areuokayy <ArrowIcon /></a>

@@ -30,3 +30,26 @@ test("assignment preserves document and table rendering", async ({ page }) => {
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth - document.documentElement.clientWidth);
   expect(overflow).toBeLessThanOrEqual(1);
 });
+
+test("intro masks the homepage before the book opens", async ({ page }) => {
+  await page.goto("/");
+  await expect(page.locator(".welcome-shell")).toBeVisible();
+  await expect(page.locator(".welcome-book")).toBeVisible();
+  await expect(page.locator(".hero")).toHaveCSS("visibility", "hidden");
+});
+
+test("Vietnamese footer title renders without clipping", async ({ page }) => {
+  await openHome(page);
+  await page.locator("#lien-he").scrollIntoViewIfNeeded();
+  const title = page.locator(".footer-message h2");
+  await expect(title).toContainText("Tớ sẽ rất vui nếu có thể");
+  await expect(title).toContainText("được đồng hành cùng cậu.");
+  const metrics = await title.evaluate((element) => ({
+    clientWidth: element.clientWidth,
+    scrollWidth: element.scrollWidth,
+    clientHeight: element.clientHeight,
+    scrollHeight: element.scrollHeight,
+  }));
+  expect(metrics.scrollWidth).toBeLessThanOrEqual(metrics.clientWidth + 1);
+  expect(metrics.scrollHeight).toBeLessThanOrEqual(metrics.clientHeight + 1);
+});
