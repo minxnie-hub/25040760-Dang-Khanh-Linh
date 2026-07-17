@@ -50,9 +50,9 @@ export function WelcomeOverlay() {
 
     timeline
       .fromTo(".welcome-book", { xPercent: -50, yPercent: -50, y: 28, rotationX: -6, scale: 0.95, autoAlpha: 0 }, { xPercent: -50, yPercent: -50, y: 0, rotationX: 0, scale: 1, autoAlpha: 1, duration: 0.74 })
-      .fromTo(".welcome-title > *", { y: 22, autoAlpha: 0 }, { y: 0, autoAlpha: 1, stagger: 0.08, duration: 0.52 }, "-=.36")
-      .fromTo(".welcome-spark", { scale: 0, rotation: -18, autoAlpha: 0 }, { scale: 1, rotation: 0, autoAlpha: 1, stagger: 0.07, duration: 0.42 }, "-=.34")
-      .fromTo(".welcome-book-badge", { y: 10, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.42 }, "-=.3");
+      .fromTo(".welcome-title", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.46, clearProps: "opacity,visibility" }, "-=.32")
+      .fromTo(".welcome-spark", { scale: 0, rotation: -18, autoAlpha: 0 }, { scale: 1, rotation: 0, autoAlpha: 1, stagger: 0.07, duration: 0.42 }, "-=.28")
+      .fromTo(".welcome-book-badge", { y: 10, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.42, clearProps: "transform" }, "-=.3");
   }, { scope, dependencies: [visible] });
 
   function revealPage() {
@@ -157,7 +157,10 @@ export function WelcomeOverlay() {
 
       <div className="welcome-title">
         <p>Chào cậu, cuốn sổ sao của tớ đã sẵn sàng.</p>
-        <h1 id="welcome-heading">Mỗi chương là một dấu mốc nhỏ trên hành trình học tập.</h1>
+        <h1 id="welcome-heading">
+          <span>Mỗi chương là một dấu mốc nhỏ</span>
+          <span>trên hành trình học tập.</span>
+        </h1>
         <button type="button" onClick={openBook}><BookIcon /> Mở cuốn sổ</button>
         <small>Nhấn Enter để bắt đầu · Esc để bỏ qua</small>
       </div>

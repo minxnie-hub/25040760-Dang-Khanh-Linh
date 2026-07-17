@@ -53,10 +53,14 @@ export default function HomePage() {
       <div className="hero-inner section-shell">
         <div className="hero-copy">
           <p className="hero-kicker"><SparkIcon /> Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo</p>
-          <h1 aria-label="Đặng Khánh Linh">
-            <span className="hero-title-mask"><span className="hero-title-line">Đặng Khánh</span></span>
-            <span className="hero-title-mask"><span className="hero-title-line">Linh</span></span>
+          <h1 aria-label="Đặng Khánh Linh" className="hero-display-title">
+            <span className="hero-title-mask hero-title-top"><span className="hero-title-line">Đặng</span></span>
+            <span className="hero-title-mask hero-title-bottom"><span className="hero-title-line">Khánh Linh</span></span>
           </h1>
+          <div className="hero-editorial-note">
+            <span>field note 01</span>
+            <p>Sáu chương học tập, một hành trình ghi lại theo cách rất riêng của tớ.</p>
+          </div>
           <p className="hero-manifesto">Chào cậu, đây là cuốn sổ bầu trời nơi tớ lưu lại sáu dấu mốc trong hành trình làm quen với công nghệ số và AI. Mỗi chương là một kỹ năng tớ đã học, một thử thách tớ đã đi qua và một điều mới tớ muốn mang theo.</p>
           <div className="hero-actions">
             <Link href="#muc-luc" className="primary-button"><CompassIcon /> Mở mục lục sao <ArrowIcon /></Link>
