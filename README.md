@@ -47,3 +47,7 @@ npm test
 4. Workflow `.github/workflows/deploy-pages.yml` sẽ tự cài dependency, build và deploy.
 
 `next.config.ts` tự nhận tên repository trong GitHub Actions để thiết lập `basePath`. Vì vậy ảnh, asset và các route `/bai-1` đến `/bai-6` vẫn hoạt động khi website được đặt dưới đường dẫn repository.
+
+## GitHub Actions dependency note
+
+The repository includes a portable `package-lock.json` without environment-specific registry URLs and an `.npmrc` pinned to the public npm registry. This prevents GitHub Actions from attempting to download packages from a private build-environment registry.
