@@ -73,7 +73,7 @@ html[data-intro-seen="true"] .welcome-shell { display: none; }
 .welcome-skip { position: absolute; right: 30px; top: 26px; z-index: 8; border: 0; border-bottom: 1px solid rgba(255,255,255,.35); color: #d8eafa; background: transparent; cursor: pointer; font-size: 13px; }
 .welcome-book { position: absolute; left: 36%; top: 48%; width: min(382px, 40vw); aspect-ratio: .74; opacity: 1; visibility: visible; transform: translate(-50%, -50%) translateY(28px) rotateX(-6deg) scale(.95); perspective: 1300px; transform-style: preserve-3d; will-change: transform, opacity; }
 .welcome-book-shadow { position: absolute; inset: auto 20px -18px; height: 34px; border-radius: 50%; background: radial-gradient(circle, rgba(0,0,0,.48) 0%, rgba(0,0,0,0) 72%); filter: blur(10px); }
-.welcome-book-cover { position: absolute; inset: 0; z-index: 4; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0; padding: 34px; text-align: center; color: #eaf7ff; border-radius: 9px 18px 18px 9px; border: 1px solid rgba(148,216,255,.38); background: linear-gradient(145deg, rgba(11,43,86,.97), rgba(6,19,42,.98) 68%), radial-gradient(circle at 50% 35%, rgba(115,198,255,.11), transparent 42%); box-shadow: inset 0 0 0 8px rgba(255,255,255,.018), inset 0 0 0 1px rgba(255,255,255,.06), 0 38px 90px rgba(0,0,0,.52); transform-style: preserve-3d; backface-visibility: hidden; }
+.welcome-book-cover { position: absolute; inset: 0; z-index: 4; display: flex; flex-direction: column; align-items: center; justify-content: center; gap: 0; padding: 34px; text-align: center; color: #eaf7ff; border-radius: 9px 18px 18px 9px; border: 1px solid rgba(148,216,255,.38); background: linear-gradient(145deg, rgba(11,43,86,.97), rgba(6,19,42,.98) 68%), radial-gradient(circle at 50% 35%, rgba(115,198,255,.11), transparent 42%); box-shadow: inset 0 0 0 8px rgba(255,255,255,.018), inset 0 0 0 1px rgba(255,255,255,.06), 0 38px 90px rgba(0,0,0,.52); backface-visibility: visible; }
 .welcome-book-cover::before { content: ""; position: absolute; inset: 20px; border: 1px solid rgba(146,213,255,.24); border-radius: 4px 12px 12px 4px; }
 .welcome-book-cover::after { content: ""; position: absolute; left: 18px; top: 18px; bottom: 18px; width: 6px; border-radius: 8px; background: linear-gradient(180deg, rgba(255,255,255,.13), rgba(255,255,255,0)); opacity: .42; }
 .welcome-book-logo-wrap { position: relative; z-index: 2; display: grid; place-items: center; gap: 12px; margin-bottom: 26px; }
@@ -82,7 +82,9 @@ html[data-intro-seen="true"] .welcome-shell { display: none; }
 .welcome-book-stars { position: absolute; inset: 28px 30px auto auto; display: flex; gap: 8px; color: #c3efff; opacity: .8; }
 .welcome-book-stars svg { width: 16px; filter: drop-shadow(0 0 8px rgba(107,207,255,.42)); }
 .welcome-book-cover > span { margin-bottom: 10px; color: #8fccea; font-family: var(--mono); font-size: 10px; letter-spacing: .15em; text-transform: uppercase; }
-.welcome-book-cover strong { position: relative; z-index: 2; max-width: 260px; font-family: var(--serif); font-size: clamp(28px, 3vw, 44px); line-height: 1.04; font-weight: 500; }
+.welcome-book-cover strong { position: relative; z-index: 2; max-width: 270px; font-family: "Segoe UI", "Noto Sans", Arial, sans-serif; font-size: clamp(27px, 2.8vw, 42px); line-height: 1.02; letter-spacing: -.035em; font-weight: 650; font-kerning: none; font-variant-ligatures: none; font-feature-settings: "kern" 0, "liga" 0; text-rendering: auto; }
+.welcome-book-name span { display: block; white-space: nowrap; }
+.welcome-book-name span + span { margin-top: .06em; }
 .welcome-book-cover small { margin-top: 16px; color: #a9bfd2; font-size: 11px; letter-spacing: .1em; }
 .welcome-book-meta { position: relative; z-index: 2; display: grid; gap: 8px; margin-top: 28px; }
 .welcome-book-meta em, .welcome-book-meta b { font-style: normal; font-size: 11px; }

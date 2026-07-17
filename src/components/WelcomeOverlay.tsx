@@ -49,7 +49,7 @@ export function WelcomeOverlay() {
     }
 
     timeline
-      .fromTo(".welcome-book", { xPercent: -50, yPercent: -50, y: 28, rotationX: -6, scale: 0.95, autoAlpha: 0 }, { xPercent: -50, yPercent: -50, y: 0, rotationX: 0, scale: 1, autoAlpha: 1, duration: 0.74 })
+      .fromTo(".welcome-book", { xPercent: -50, yPercent: -50, y: 24, scale: 0.97, autoAlpha: 0 }, { xPercent: -50, yPercent: -50, y: 0, scale: 1, autoAlpha: 1, duration: 0.62, clearProps: "filter" })
       .fromTo(".welcome-title", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.46, clearProps: "opacity,visibility" }, "-=.32")
       .fromTo(".welcome-spark", { scale: 0, rotation: -18, autoAlpha: 0 }, { scale: 1, rotation: 0, autoAlpha: 1, stagger: 0.07, duration: 0.42 }, "-=.28")
       .fromTo(".welcome-book-badge", { y: 10, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.42, clearProps: "transform" }, "-=.3");
@@ -96,11 +96,11 @@ export function WelcomeOverlay() {
 
     timeline
       .to(".welcome-book-cover", {
-        rotationY: -14,
-        rotationZ: -3,
-        xPercent: -4,
+        x: -10,
+        rotation: -1.4,
+        scale: 0.99,
         boxShadow: "0 46px 110px rgba(0,0,0,.54)",
-        duration: 0.22,
+        duration: 0.18,
       })
       .to(".welcome-book", {
         x: -64,
@@ -145,7 +145,7 @@ export function WelcomeOverlay() {
             <SparkIcon />
           </div>
           <span>Celestial field notes</span>
-          <strong>Đặng Khánh Linh</strong>
+          <strong className="welcome-book-name"><span>Đặng Khánh</span><span>Linh</span></strong>
           <small>Student portfolio · QH2025</small>
           <div className="welcome-book-meta">
             <em>University of Languages and International Studies</em>
