@@ -1,0 +1,616 @@
+{
+  "slug": "bai-4",
+  "number": 4,
+  "title": "Sử dụng công cụ hợp tác trực tuyến cho dự án nhóm",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "BÁO CÁO CÁ NHÂN",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Họ và tên: Đặng Khánh Linh",
+      "style": "normal",
+      "bold": true,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "MSSV: 25040760",
+      "style": "normal",
+      "bold": true,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Lớp: 25E17",
+      "style": "normal",
+      "bold": true,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Công việc được giao",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 3
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Công việc được giao",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 12
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Học phần: Nhập môn công nghệ số và ứng dụng trí tuệ nhân tạo",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 11
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Chủ đề: Ứng dụng của AI và Công nghệ số trong lĩnh vực Giáo dục và Ngoại ngữ",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 11
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Nhiệm vụ: Thiết kế slide và bảo quản dữ liệu",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 11
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Hạn: Thứ 7",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 11
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Chi tiết công việc",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 12
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Thiết kế slide đẹp mắt, bố cục hài hòa",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 4
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Phân nội dung ngắn gọn",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 4
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Tìm các ảnh minh họa hợp lý",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 4
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Lưu trữ dự án",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 4
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "B. Thực hiện nhiệm vụ",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Trong quá trình làm nhiệm vụ, em đã sử dụng các công cụ sau:",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Công cụ soạn thảo tài liệu cộng tác: Google Docs và Canva",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 5
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Nhóm trưởng sử dụng các thẻ phân các phần nội dung vào trong biểu mẫu Google Docs và các thành viên được chia sẻ một đường dẫn link để cộng tác soạn thảo: https://docs.google.com/document/d/1v3B0-_zKqwIezXWuVdjNO1wZIiNQn-ulgQbFXo2VQec/edit?usp=sharing",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": [
+        {
+          "text": "https://docs.google.com/document/d/1v3B0-_zKqwIezXWuVdjNO1wZIiNQn-ulgQbFXo2VQec/edit?usp=sharing",
+          "href": "https://docs.google.com/document/d/1v3B0-_zKqwIezXWuVdjNO1wZIiNQn-ulgQbFXo2VQec/edit?usp=sharing"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-01-f7592b7908.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Hiệu quả công cụ: Google Docs giúp em tối ưu hóa toàn bộ quá trình làm việc nhóm nhờ tính năng đồng thời chỉnh sửa và tương tác trực tiếp qua bình luận mà không bị chồng chéo file. Việc lưu trữ tự động trên đám mây xóa bỏ hoàn toàn rủi ro mất dữ liệu do các sự cố ngoài ý muốn, cho phép khôi phục các phiên bản cũ và dễ dàng qua lịch sử chỉnh sửa. Ngoài ra, khả năng đồng bộ linh hoạt giữa máy tính và điện thoại giúp chúng em chủ động trong học tập, tra cứu và chia sẻ tài liệu mọi lúc mọi nơi chỉ bằng một đường liên kết một cách dễ dàng.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 15
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Về phần thuyết trình, em sử dụng Canva có kết hợp tính năng cộng tác để mọi người cùng xem và chỉnh sửa qua đường link chia sẻ:",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 15
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "https://canva.link/bo330ltpyhfggf4",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": "https://canva.link/bo330ltpyhfggf4",
+          "href": "https://canva.link/bo330ltpyhfggf4"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-02-3950c20ece.png",
+        "image-03-2b874575f1.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Hiệu quả công cụ: Canva giúp em tối ưu hóa việc thiết kế slide thuyết trình, tài liệu và poster dự án nhờ kho giao diện (template) phong phú và hiện đại, phù hợp với mọi chủ đề học tập. Giao diện kéo-thả đơn giản giúp em dễ dàng sáng tạo slide mà không cần kỹ năng đồ họa phức tạp. Đặc biệt, tính năng chia sẻ link thiết kế cho phép các thành viên trong nhóm em cùng vào chỉnh sửa, nhận xét theo thời gian thực, giúp  em đồng bộ ý tưởng và nâng cao thẩm mỹ cho bài thu hoạch cuối cùng.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 6
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Công cụ giao tiếp nhóm: Zalo và Google Meet",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 5
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Phần lớn thời gian nhóm em dùng Google Meet, Zalo chỉ đóng vai trò chỉ đạo các nhiệm vụ và trao đổi với các thành viên nếu có thắc mắc:",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 10
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-04-cc96e242c2.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-05-15750473fd.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-06-d997ddca72.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Chúng em sẽ cùng thống nhất 1 buổi tối cụ thể để cùng họp với nhau. Nhóm trưởng hoặc nhóm phó sẽ tạo các phiên họp Google Meet và gửi đường dẫn tới nhóm Zalo:",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 14
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-07-a740179c6f.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-08-1bd4b06ae2.jpg"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-09-c94ffe2d5c.jpg"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-10-59d9b83a9b.jpg"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Hiệu quả công cụ: Google Meet tối ưu hóa việc học tập từ xa nhờ giao diện đơn giản, cho phép tham gia lớp học hoặc họp nhóm nhanh chóng chỉ qua một đường liên kết mà không cần cài đặt phức tạp. Tính năng chia sẻ màn hình linh hoạt, rõ nét giúp chúng em dễ dàng trình bày nội dung bàn luận, báo cáo hoặc thảo luận slide cùng nhau theo thời gian thực. Ngoài ra, việc kết hợp với tính năng nhắn tin trong cuộc gọi và giơ tay phát biểu giúp duy trì sự tương tác, kết nối hiệu quả giữa các thành viên của nhóm.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 9
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Công cụ lưu trữ và chia sẻ tệp: Google Drive",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 5
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Chúng em dùng Google Drive để lưu trữ các tệp thuyết trình và nội dung thuyết trình nhằm đảo bảo giữ cho dự án được an toàn, tránh các rủi ro có thể xảy ra với ổ cứng:",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 8
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-11-07053f1cd4.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "C. Thách thức và giải pháp",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Thách thức gặp phải khi tương tác với nhóm",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 7
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Lệch nhau về thời gian và lịch trình: Thành viên bận lịch cá nhân, trùng lịch học dẫn đến việc khó xếp lịch họp đầy đủ, người này phải chờ phản hồi người kia.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 13
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Giao tiếp kém hiệu quả: Việc giao tiếp trao đổi online khiến nhóm gặp các tình khó xử (không trả lời tin nhắn, mất kết nối mạng giữa chừng, khó trao đổi linh hoạt, hiểu nhầm ý kiến...)",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 13
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Thiếu sự gắn kết và tin tưởng: Khi làm việc online hoặc các thành viên chưa thân thiết, mọi người thường ngại chia sẻ khó khăn, giấu dốt hoặc không dám thẳng thắn đóng góp ý kiến cho nhau khiến việc làm dự án có chút trì hoãn.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 13
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Giải pháp giải quyết",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 7
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Nhóm em cùng nhau trao đổi lịch trình với nhau để cùng thống nhất một thời gian cụ thể, mỗi thành viên đều cố gắng sắp xếp lịch trình để dành chút thời gian họp với nhóm. (như minh chứng ở trên mục Zalo)",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 2
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Vì gặp vấn đề lịch trình nhiều và hoàn toàn là những người lạ, mỗi lần họp Google Meet chúng em đều cố gắng trao đổi nhiều nhất có thể, cùng nhau bàn luận sau và giải đáp hết các thắc mắc có khả năng. Đồng thời, mọi người cũng tạo ra các chủ đề giao tiếp đầu mỗi buổi họp để tạo bầu không khí cho cuộc thảo luận sau đó. (hỏi thăm, bàn luận về các vấn đề ngẫu hứng…)",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 2
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "                                        – Hết –",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    }
+  ],
+  "imageCount": 11
+}

@@ -1,0 +1,1613 @@
+{
+  "slug": "bai-2",
+  "number": 2,
+  "title": "Tìm kiếm và đánh giá thông tin học thuật",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Họ và tên: Đặng Khánh Linh             MSSV:25040760",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Lớp: 25E17",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "BÀI TẬP 2",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Danh mục tài liệu tham khảo (Định dạng Harvard)",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 2
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Cai, Y. (2025) ‘Navigating the impact of generative AI in English language education’, Forum for Education Studies, 3(3), pp. 2143-2155.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Du, J. and Daniel, B. K. (2024) ‘Transforming language education: A systematic review of AI-powered chatbots for EFL speaking practice’, Computers and Education: Artificial Intelligence, 6, Article 100230.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Engwall, O. and Lopes, J. (2025) ‘Two years of innovation: A systematic review of empirical generative AI research in language learning’, Computers and Education: Artificial Intelligence, 100445.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Nguyen, P. H. and Dieu, N. B. (2024) ‘An investigation into third-year ELT students' perceptions of using ChatGPT as an AI writing-assistant tool: A case study in Vietnam’, International Journal of Arts, Humanities and Social Sciences Studies, 9(5), pp. 41-54. ",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Duong, T. and Suppasetseree, S. (2024) ‘The effects of an AI voice chatbot on improving Vietnamese undergraduate students' English speaking skills’, International Journal of Learning, Teaching and Educational Research, 23(3), pp. 293-321.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "UNESCO (2023) Guidance for generative AI in education and research. Paris: UNESCO.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "ECML (2025) AI for language education (AILang): Survey report on teacher and learner competences. European Centre for Modern Languages.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Neupane, B. P. et al. (2025) ‘English Language Teaching in the Age of AI: Tools and Methodologies’, Advances in Mobile Learning Educational Research, 5(1), pp. 1356-1369.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Duolingo (2024) 2023-2024 Global Language Report: How AI shapes learning habits. ",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Moorhouse, B. L. and Wong, K. M. (2025) Generative Artificial Intelligence and Language Teaching. Cambridge: Cambridge University Press.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Bảng tổng hợp và đánh giá",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 2
+      },
+      "links": []
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          {
+            "text": "STT",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "STT",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Tác giả & Cơ quan xuất bản",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Tác giả & Cơ quan xuất bản",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Tính cập nhật",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Tính cập nhật",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Phương pháp nghiên cứu",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Phương pháp nghiên cứu",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Trích dẫn & Độ tin",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Trích dẫn & Độ tin ",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Xếp hạng độ tin cậy",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Xếp hạng độ tin cậy",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          }
+        ],
+        [
+          {
+            "text": "1",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "1",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "- Cai, Y. (2025)\n- Forum for Education Studies",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "- Cai, Y. (2025)",
+                "style": "normal",
+                "bold": true,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "- Forum for Education Studies",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "21/07/2025\n-> Rất cao",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "21/07/2025",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "-> Rất cao",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Phân tích lý thuyết và tổng hợp tác động của AI tạo sinh.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Phân tích lý thuyết và tổng hợp tác động của AI tạo sinh.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Nguồn học thuật mới, có hệ thống trích dẫn chuẩn mực.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Nguồn học thuật mới, có hệ thống trích dẫn chuẩn mực.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "5/5",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "5/5",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          }
+        ],
+        [
+          {
+            "text": "2",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "2",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "- Du & Daniel (2024)\n- Tạp chí Elsevier",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "- Du & Daniel (2024)",
+                "style": "normal",
+                "bold": true,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "- Tạp chí Elsevier ",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Tháng 6 năm 2024\n-> Cao",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Tháng 6 năm 2024",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "-> Cao",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Systematic Review: Tổng quan hệ thống từ hàng trăm nghiên cứu trước đó.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Systematic Review: Tổng quan hệ thống từ hàng trăm nghiên cứu trước đó.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Trích dẫn từ nhiều nguồn đáng tin cậy nhưng cũng có nguồn từ 2006-2019, tính cập nhật thấp.\nTạp chí Elsevier là tạp chí khoa học hàng đầu thế giới, độ tin cậy tuyệt đối",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Trích dẫn từ nhiều nguồn đáng tin cậy nhưng cũng có nguồn từ 2006-2019, tính cập nhật thấp.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Tạp chí Elsevier là tạp chí khoa học hàng đầu thế giới, độ tin cậy tuyệt đối",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "4/5",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "4/5",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          }
+        ],
+        [
+          {
+            "text": "3",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "3",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "- Engwall & Lopes (2025)\n- Tạp chí Elsevier",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "- Engwall & Lopes (2025)",
+                "style": "normal",
+                "bold": true,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "- Tạp chí Elsevier ",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Tháng 12 năm 2025\n-> Rất cao",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Tháng 12 năm 2025",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "-> Rất cao",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Literature Search Process (Quy trình tìm kiếm tài liệu) rất đầy đủ và chặt chẽ.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Literature Search Process (Quy trình tìm kiếm tài liệu) rất đầy đủ và chặt chẽ.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Trích dẫn có hệ thống và tính cập nhật cao, được lấy từ rất nhiều nguồn đáng tin cậy.\nTạp chí Elsevier là tạp chí khoa học hàng đầu thế giới, độ tin cậy tuyệt đối",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Trích dẫn có hệ thống và tính cập nhật cao, được lấy từ rất nhiều nguồn đáng tin cậy.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Tạp chí Elsevier là tạp chí khoa học hàng đầu thế giới, độ tin cậy tuyệt đối",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "5/5",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "5/5",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          }
+        ],
+        [
+          {
+            "text": "4",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "4",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "- Nguyen & Dieu (2024)\n- IJAHSS (Nghiên cứu tại VN)",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "- Nguyen & Dieu (2024)",
+                "style": "normal",
+                "bold": true,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "- IJAHSS (Nghiên cứu tại VN)",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Tháng 5 năm 2024\n-> Cao",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Tháng 5 năm 2024",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "-> Cao",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Case Study: Khảo sát định lượng trên sinh viên chuyên ngành Ngôn ngữ Anh tại Việt Nam.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Case Study: Khảo sát định lượng trên sinh viên chuyên ngành Ngôn ngữ Anh tại Việt Nam.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Trích dẫn từ 52 nguồn thông tin đáng nhưng chưa có tính cập nhật.\nRất thực tế cho bài báo cáo vì có tính địa phương (local context).",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Trích dẫn từ 52 nguồn thông tin đáng nhưng chưa có tính cập nhật.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Rất thực tế cho bài báo cáo vì có tính địa phương (local context).",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "4.5/5",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "4.5/5",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          }
+        ],
+        [
+          {
+            "text": "5",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "5",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "- Duong & Suppasetseree (2024)\n- IJLTER",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "- Duong & Suppasetseree (2024)",
+                "style": "normal",
+                "bold": true,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "- IJLTER",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Tháng 3 năm 2024\n-> Cao",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Tháng 3 năm 2024",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "-> Cao",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Thực nghiệm: Đo lường sự cải thiện kỹ năng nói qua Chatbot AI từ 30 người tham gia nghiên cứu không biết Tiếng Anh.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Thực nghiệm: Đo lường sự cải thiện kỹ năng nói qua Chatbot AI từ 30 người tham gia nghiên cứu không biết Tiếng Anh.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Trích dân từ nhiều nguồn thông tin khoa học, đáng tin cậy.\nCó số liệu thống kê rõ ràng, phương pháp khoa học chặt chẽ.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Trích dân từ nhiều nguồn thông tin khoa học, đáng tin cậy.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Có số liệu thống kê rõ ràng, phương pháp khoa học chặt chẽ.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "4.5/",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "4.5/",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          }
+        ],
+        [
+          {
+            "text": "6",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "6",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "- UNESCO (2023)\n- Tổ chức Giáo dục Liên Hợp Quốc",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "- UNESCO (2023)",
+                "style": "normal",
+                "bold": true,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "- Tổ chức Giáo dục Liên Hợp Quốc",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "2023\n-> Trung",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "2023",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "-> Trung ",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Phân tích chính sách, đạo đức và hướng dẫn khung toàn cầu.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Phân tích chính sách, đạo đức và hướng dẫn khung toàn cầu.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Cơ quan quyền lực nhất về giáo dục, nguồn sơ cấp (Primary source).\nTrích dẫn có hệ thống và nguồn tài liệu khoa học đáng tin cậy.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Cơ quan quyền lực nhất về giáo dục, nguồn sơ cấp (Primary source).",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Trích dẫn có hệ thống và nguồn tài liệu khoa học đáng tin cậy.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "5/5",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "5/5",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          }
+        ],
+        [
+          {
+            "text": "7",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "7",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "- ECML (2025)\n- European Centre for Modern Languages",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "- ECML (2025)",
+                "style": "normal",
+                "bold": true,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "- European Centre for Modern Languages",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Tháng 11 năm 2025\n-> Rất cao",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Tháng 11 năm 2025",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "-> Rất cao",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Khảo sát năng lực giáo viên và người học ngôn ngữ tại Châu Âu.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Khảo sát năng lực giáo viên và người học ngôn ngữ tại Châu Âu.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Tổ chức chuyên môn sâu về ngôn ngữ học ứng dụng. \nTrích dẫn rất nhiều tài liệu giáo dục chuyên sâu nổi tiếng.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Tổ chức chuyên môn sâu về ngôn ngữ học ứng dụng. ",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Trích dẫn rất nhiều tài liệu giáo dục chuyên sâu nổi tiếng. ",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "5/",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "5/",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          }
+        ],
+        [
+          {
+            "text": "8",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "8",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "- Neupane, B. P. (2025)\n- AMLER",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "- Neupane, B. P. (2025)",
+                "style": "normal",
+                "bold": true,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "- AMLER",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "18/03/2025\n-> Rất cao",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "18/03/2025",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "-> Rất cao",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Phân tích công cụ và phương pháp giảng dạy (Methodologies).",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Phân tích công cụ và phương pháp giảng dạy (Methodologies).",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Trích dẫn và tham khảo từ rất nhiều khảo sát thực tiễn đáng tin cậy. Cung cấp cái nhìn thực tiễn về các công cụ hỗ trợ học tập.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Trích dẫn và tham khảo từ rất nhiều khảo sát thực tiễn đáng tin cậy. Cung cấp cái nhìn thực tiễn về các công cụ hỗ trợ học tập.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "4/5",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "4/5",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          }
+        ],
+        [
+          {
+            "text": "9",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "9",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "- Duolingo (2024)\n- Báo cáo dữ liệu doanh nghiệp",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "- Duolingo (2024)",
+                "style": "normal",
+                "bold": true,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "- Báo cáo dữ liệu doanh nghiệp",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "01/12/2024\n-> Cao",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "01/12/2024",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "-> Cao",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Thống kê từ dữ liệu người dùng thực tế trên ứng dụng.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Thống kê từ dữ liệu người dùng thực tế trên ứng dụng.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Có giá trị thực tiễn nhưng cần cẩn trọng vì có tính quảng bá thương hiệu.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Có giá trị thực tiễn nhưng cần cẩn trọng vì có tính quảng bá thương hiệu.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "3.5/5",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "3.5/5",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          }
+        ],
+        [
+          {
+            "text": "10",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "10",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "- Moorhouse & Wong (2025)\n- Cambridge University Press",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "- Moorhouse & Wong (2025)",
+                "style": "normal",
+                "bold": true,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "- Cambridge University Press",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "26/06/2025\n-> Rất cao",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "26/06/2025",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "-> Rất cao",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Tổng hợp chuyên sâu về AI trong giảng dạy và học tập ngôn ngữ.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Tổng hợp chuyên sâu về AI trong giảng dạy và học tập ngôn ngữ.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Đặc biệt uy tín từ nhà xuất bản giáo dục hàng đầu thế giới.\nTrích dẫn từ nhiều tài liệu khoa học nổi tiếng và đáng tin cậy.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Đặc biệt uy tín từ nhà xuất bản giáo dục hàng đầu thế giới.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Trích dẫn từ nhiều tài liệu khoa học nổi tiếng và đáng tin cậy.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "5/",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "5/",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          }
+        ]
+      ]
+    }
+  ],
+  "imageCount": 0
+}

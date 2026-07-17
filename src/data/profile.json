@@ -1,0 +1,268 @@
+{
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Thông tin cá nhân",
+      "style": "Heading 3",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Name: Đặng Khánh Linh",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Class: 25E17    Khoá: QH2025",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "MSSV: 25040760",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Khoa: NN&VH Anh",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Ngành: Tiếng Anh",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Trường: Đại học Ngoại Ngữ (ULIS)",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Email: dangkhanhlinh20011006@gmail.com",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": "dangkhanhlinh20011006@gmail.com",
+          "href": "mailto:dangkhanhlinh20011006@gmail.com"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "FB: https://www.facebook.com/jellojello.areuokayy",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": "https://www.facebook.com/jellojello.areuokayy",
+          "href": "https://www.facebook.com/jellojello.areuokayy"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Avatar:",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-01-de34b8d5f5.jpg"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ý tưởng",
+      "style": "Heading 3",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Tone: Xanh lam blu e",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Chủ đề: Bầu trời đêm đầy sao",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Thật ra mình cũng kh biết tả sao nhưng mình cũng từng làm r, đây là 1 mẫu theme mình mong muốn: https://v0-portfolio-of-khalinh-25040760.vercel.app/",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": "https://v0-portfolio-of-khalinh-25040760.vercel.app/",
+          "href": "https://v0-portfolio-of-khalinh-25040760.vercel.app/"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nhưng mình muốn logo trường nó rõ hơn 1 chút và bố cục nó logic hơn 1 chút, có mục lục rõ ràng",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Những phần còn lại như mục tiêu,... mình mong các bạn nghe nó học thuật nhưng vẫn kh kém phần đặc trưng con người (có gì đọc kh hiểu các b cứ nhắn mình nha)",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Ngoài ra, nếu các b làm đc phần hiện chào mừng như trang web trên thì tốt mình thấy ý tưởng đó hay á, có thể thay thế giống như hiệu ứng mở trang sách vậy.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Phần kết có thể có thêm thông điệp",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Về ngôn ngữ, các cậu cứ dùng danh xưng trong web là tớ-cậu, mình muốn ngữ điệu nó học thuật nhưng vẫn mang đậm tính cá nhân",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Về bố cục, mình thấy có thể thiết kế hiện các bài tập như nhánh sao cũng là 1 ý kiến hay",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Cuối cùng mình vẫn mong web có chút gì đó dễ thương như kiểu có thêm stciker hay icon, ký tự gì đó tương tự.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Yêu cầu mình v là hết rui, có gì kh hiểu hoặc kh được ý thì b cứ chia sẻ với mình nha. ",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Cảm ơn sự giúp đỡ của các cậu!",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    }
+  ]
+}

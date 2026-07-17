@@ -1,0 +1,619 @@
+{
+  "slug": "bai-1",
+  "number": 1,
+  "title": "Thao tác cơ bản với tệp tin và thư mục",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "Các bước thực hiện:",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Mở File Explorer: Nhấn tổ hợp phím Windows + E hoặc nhấn vào biểu tượng thư mục màu vàng trên thanh tác vụ.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-01-dd57f3835a.jpg"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Hoặc nhấn vào biểu tượng:",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "\n",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-02-bc0a63ec73.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Truy cập ổ đĩa/thư mục: Ở cột trái, This PC -> nhấn đúp vào ổ đĩa E: hoặc D: (nếu chỉ ổ đĩa C:, hãy chọn thư mục Documents).",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "This PC",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-03-80d09b1a42.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nhấn đúp ổ E: hoặc D:",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-04-443cd51e9d.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nhấn vào thư mục Documents (trường hợp chỉ có mỗi ổ C: ).",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-05-ba10b506a3.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Tạo thư mục mới: Nhấp chuột phải vào khoảng trống -> New -> Folder -> đặt tên -> phím Enter.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-06-00e5e4c259.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Đặt tên thư mục là ThucHanh_HoTenSinhVien (vd: ThucHanh_NguyenVanA) -> nhấn phím Enter.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-07-97d980f377.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Vào thư mục vừa tạo: nhấn đúp vào thư mục.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-08-f16150d05e.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Tạo tệp tin văn bản: Nhấp chuột phải vào khoảng trống -> New -> Text Document. Đặt tên là GhiChu.txt. Nhấn phím Enter.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-09-d619064afc.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Đặt tên -> phím Enter.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-10-aa11af04aa.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Đổi tập tên tin: Nhấp chuột vào tệp muốn tên -> nhấp chuột phải -> chọn Rename. Đổi tên thành GhiChuQuanTrong.txt -> nhấn phím Enter.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-11-702e2e5b8b.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Đổi tên tệp -> phím Enter.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-12-9fec38769c.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Tạo thư mục con: Vào thư mục đã tạo trước đó (ThucHanh_HoTenSinhVien), nhấp chuột phải khoảng trống -> New -> Folder. Đặt tên thư mục con là TaiLieu.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-13-8712f3dbc3.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Đặt tên thư mục con -> phím Enter.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-14-7f05f92672.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Sao chép tệp tin (Copy & Paste): Chọn và nhấp chuột phải vào GhiChuQuanTrong.txt -> Copy (hoặc nhấn tổ hợp phím Ctrl + C). Nhấn đúp vài thư mục TaiLieu, nhấp chuột phải vào khoảng trống -> Paste (hoặc tổ hợp phím Ctrl + V).",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-15-61b580dd35.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Vào thư mục tài liệu.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-16-2680b6dda9.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nhấp chuột phải vào khoảng trống -> Paste.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-17-63eba424c2.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Di chuyển tệp tin (Cut & Paste): Vào thư mục ThucHanh_HoTenSinhVien, tạo tệp mới tên là DiChuyen.txt. Chọn và nhấp chuột phải vào tệp DiChuyen.txt -> Cut (hoặc nhấn tổ hợp phím Ctrl + X). Nhấn đúp vào mục TaiLieu, nhấp chuột phải vào khoảng trống -> Paste (hoặc nhấn tổ hợp phím Ctrl + V). Tệp sẽ được di chuyển đến vị trí mới.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-18-414bd0207f.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Nhấn đúp vào mục TaiLieu.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-19-515aa7ce5b.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Paste (Ctrl + V).",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-20-d59b566b2f.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Xóa tệp tin: Trong thư mục TaiLieu, chọn và nhấp chuột phải vào tệp GhiChuQuanTrong.txt -> Delete. Tệp sẽ được chuyển vào thùng rác (Recycle Bin).",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-21-79e0f7000f.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Xóa vĩnh viễn: Vào thư mục Tailieu, chọn tệp DiChuyen.txt, nhấn giữ phím Shift và nhấn phím Delete. Một cảnh báo sẽ hiện ra. Nếu đồng ý, tệp sẽ bị xóa vĩnh viễn mà không thông qua thùng rác.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": " ",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-22-8234e12a9e.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Cách khôi phục tệp từ thùng rác: Tìm biểu tượng Recycle Bin trên màn hình nền, nhấp đúp để mở. Tìm tệp GhiChuQuanTrong.txt đã xóa trên thanh tìm kiếm. Chọn và nhấp chuột phải -> Restore. Tệp sẽ quay lại vị trí trước khi xóa.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Biểu tượng Recycle Bin:",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-23-29d269cd6b.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Tìm tên tệp -> chọn tệp và nhấp chuột phải -> Restore.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-24-cb812fa50f.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Tệp sẽ trở lại vị trí ban đầu.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-25-76c86a0bd6.png"
+      ]
+    }
+  ],
+  "imageCount": 25
+}

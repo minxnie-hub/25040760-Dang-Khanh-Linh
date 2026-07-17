@@ -1,0 +1,501 @@
+{
+  "slug": "bai-5",
+  "number": 5,
+  "title": "Sử dụng AI tạo sinh để hỗ trợ sáng tạo nội dung",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "BÁO CÁO PHÂN TÍCH VIỆC SỰ DỤNG CÁC CÔNG CỤ TÁC VỤ",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Họ và tên: Đặng Khánh Linh",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "MSSV: 25040760",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Lớp: 25E17",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Sản phẩm: https://canva.link/lugaqoqql4r4mz9",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": "https://canva.link/lugaqoqql4r4mz9",
+          "href": "https://canva.link/lugaqoqql4r4mz9"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Chi tiết dự án",
+      "style": "Heading 2",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 9
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Học phần: Diễn thuyết công chúng (Public Speech)",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 4
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Tạo slide hỗ trợ thuyết trình cho Final Speech",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Yêu cầu: Ngắn gọn, bố cục hợp lí, hợp mắt, tối đa 5 slides hỗ trợ.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Các công cụ hỗ trợ sáng tạo.",
+      "style": "Heading 2",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 9
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Công cụ tạo văn bản: Gemini Pro",
+      "style": "Heading 3",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 5
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Slide đóng vai trò hỗ trợ thuyết trình, vậy nên em đã sử dụng AI để giúp đỡ mình trong quá trình tạo script thuyết trình kết hợp với thông tin em cung cấp cho công cụ.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 8
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Đầu tiên, bắt đầu bằng việc em cung cấp cũng như là các main idea của em cho Gemini, sau đó dùng prompt như trong các ảnh minh chứng sau để tạo ra văn bản thuyết trình, nếu có gì không đúng ý em sẽ nêu ra vấn đề trực tiếp để Gemini tự do sáng tạo và chỉnh sửa để sản phẩm được hoàn thiện hơn;",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 8
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-01-4b05100a3f.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-02-412985877c.png",
+        "image-03-bcc4abd180.png",
+        "image-04-9858f428eb.png",
+        "image-05-08c70da36d.png",
+        "image-06-e60e296822.png",
+        "image-07-78647e03a6.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ưu điểm: Phản hồi nhanh, sáng tạo, hiểu ý người dùng nhanh.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 3
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Hạn chế: Còn hạn chế trong việc ghi nhớ các câu lệnh trước đó (Ảnh 1), nhiều câu lệnh còn mất thời gian để phản hồi, thỉnh thoảng còn xuất hiện tình trạng trì hoãn do quá tải thông tin.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 3
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Công cụ tạo hình ảnh: Gemini Pro.",
+      "style": "Heading 3",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 5
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Thay vì các công cụ như Midjournay hay DALL-E, em lựa chọn sử dụng Gemini Pro với tính năng nhanh nhẹn và sự tiện lợi của nó. Dựa vào lịch sử cung cấp thông tin về bài thuyết trình cho Gemini, điều này giúp Gemini có thêm nhiều thông tin chính xác hơn về ảnh mà em muốn tạo ra cho bài thuyết trình.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 7
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Minh chứng tạo ảnh: https://gemini.google.com/share/a01e751b286e",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": "https://gemini.google.com/share/a01e751b286e",
+          "href": "https://gemini.google.com/share/a01e751b286e"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Ưu điểm: Nhanh chóng, đúng yêu cầu với lượng tthôngtin được đưa ra.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 2
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Hạn chế: Trong quá trình tạo ảnh, em chỉ nhận tthấy1 hạn chế duy nhất là Gemini mất kha khá thời gian tạo ảnh (3-5 phút).",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 2
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Công cụ hỗ trợ thiết kế: Canva",
+      "style": "Heading 3",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 5
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Em đã sử dụng Canva để thiết kế slide cho mình với đa dạng mẫu dự án cho em lựa chọn và các tính năng thông minh và sáng tạo. Các bước em đã thực hiện như sau:",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 6
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "B1: Chọn mẫu slide thích hợp, với topic là Pink Tax, em đã tìm mẫu dự án với từ khóa là “Gender Equality” để tìm được mẫu thích hợp.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "B2:  Sử dụng các tác vụ sẵn có trong Canva để sáng tạo tùy chỉnh mẫu sao cho như mong muốn và đúng với yêu cầu của đề bài đưa ra.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "B3: Sử dụng AI của Canva để giải đáp cũng như hỗ trợ chỉnh sửa slide hoàn thiện.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "B5: Thêm các hiệu ứng như hiệu ứng bố cục slide khi chuyển hoặc hiệu ứng chuyển slide cho đẹp mắt và sáng tạo.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Minh chứng:",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [],
+      "images": [
+        "image-08-9588388b8e.png",
+        "image-09-4e35761b03.png"
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "III. Vai trò của AI đối với sáng tạo",
+      "style": "Heading 2",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Vai trò của AI trong việc tích hợp Gemini Pro và Canva có thể được tóm tắt qua các khía cạnh sau:",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Điểm mạnh và hạn chế của AI",
+      "style": "Heading 3",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Điểm mạnh:\nAI có tiềm năng lớn trong việc phá vỡ rào cản của “trang giấy trắng” (tức sự bế tắc khi bắt đầu sáng tạo). Gemini Pro có thể nhanh chóng tạo ra nội dung, sắp xếp câu từ, trong khi khả năng tạo hình ảnh của Gemini và các mẫu thiết kế thông minh của Canva giúp trực quan hóa ý tưởng mong muốn chỉ trong vài phút. Điều này tối ưu hóa tốc độ làm việc, đồng thời mang lại những góc nhìn và nguồn cảm hứng mới.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Hạn chế:\nTuy nhiên, AI vẫn thiếu cảm xúc sâu sắc, sự độc đáo và tính tinh tế trong tư duy như con người. Các công cụ tạo văn bản bằng AI đôi khi mang cảm giác như đang sao chép một cách máy móc và có thể cung cấp thông tin không chính xác. AI cũng gặp khó khăn trong việc hiểu những yêu cầu ngữ nghĩa phức tạp hoặc duy trì sự nhất quán tuyệt đối trong các dự án dài, đặc biệt về mặt hình ảnh và thiết kế.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "2. Sự thay đổi trong quá trình sáng tạo",
+      "style": "Heading 3",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Sự tham gia của AI vào quy trình sáng tạo truyền thống đánh dấu sự chuyển đổi từ “Tạo ra và Chỉnh sửa” sang “Định hướng và Tinh chỉnh”. Thay vì tự tay xây dựng từng câu chữ và chi tiết, con người giờ đây đóng vai trò như một “Giám đốc sáng tạo”. Trọng tâm được chuyển sang việc đưa ra yêu cầu (prompt), lựa chọn những kết quả tốt nhất từ AI, sau đó chỉnh sửa và cá nhân hóa chúng để tạo ra sản phẩm cuối cùng mang dấu ấn riêng của mỗi cá nhân. AI giúp con người giảm bớt công việc mang tính lặp lại, máy móc và tập trung nhiều hơn vào tư duy chiến lược.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Những vấn đề đạo đức cần cân nhắc",
+      "style": "Heading 3",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Khi sự hiện diện của AI trong quá trình sáng tạo ngày càng lớn, việc chú ý đến các ranh giới đạo đức là điều quan trọng:",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Bản quyền và quyền sở hữu trí tuệ:\nViệc sử dụng hình ảnh và văn bản do AI tạo ra (được huấn luyện từ dữ liệu của vô số tác giả khác) có thể dẫn đến các vấn đề liên quan đến vi phạm bản quyền.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Tính minh bạch:\nNgười sáng tạo có trách nhiệm công khai mức độ tham gia của AI trong tác phẩm của mình, đặc biệt đối với các dự án thương mại hoặc tác phẩm nghệ thuật.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Định kiến dữ liệu:\nAI có thể phản ánh hoặc thậm chí khuếch đại những định kiến của con người tồn tại trong dữ liệu huấn luyện (về giới tính, văn hóa, dân tộc). Vì vậy, con người cần áp dụng các bộ lọc đánh giá nghiêm ngặt trước khi công bố sản phẩm.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    }
+  ],
+  "imageCount": 9
+}

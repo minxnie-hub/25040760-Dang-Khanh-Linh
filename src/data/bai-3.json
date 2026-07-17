@@ -1,0 +1,878 @@
+{
+  "slug": "bai-3",
+  "number": 3,
+  "title": "Viết prompt hiệu quả cho các tác vụ học tập",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "BÁO CÁO THỰC HÀNH VIẾT PROMPT HIỆU QUẢ CHO CÁC TÁC VỤ HỌC TẬP",
+      "style": "Title",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Họ và tên: Đặng Khánh Linh",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": "right (2)",
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "MSSV: 25040760",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": "right (2)",
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Lớp: 25E17",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": "right (2)",
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Lựa chọn 3 tác vụ phổ biến",
+      "style": "Heading 3",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Tác vụ 1: tóm tắt 1 tài liệu/ bài báo học bằng tiếng việt: Bình đẳng giới và giới tính trong nghiên cứu (SAGER):Sự cần thiết của Bộ hướng dẫn SAGER và cách sử dụng (dịch)",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 2
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Nguồn: Heidari, S., Babor, T.F., De Castro, P. et al. Sex and Gender Equity in Research: rationale for the SAGER guidelines and recommended use. Res Integr Peer Rev 2016;1: 2. https://doi.org/10.1186/s41073-016-0007-6. ",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": "https://doi.org/10.1186/s41073-016-0007-6. ",
+          "href": "https://doi.org/10.1186/s41073-016-0007-6"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Tác vụ 2: Giải thích 1 khái niệm khoa học phức tạp trong vũ trụ - KHÔNG,THỜI GIAN (Space Time)",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 4
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Tác vụ 3: Tạo 1 bộ câu hỏi phỏng vấn cho chủ đề nghiên cứu: Ảnh hưởng của nội dung ăn uống trên TikTok.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 3
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Viết Prompt cơ bản và cải tiến cho từng tác vụ.",
+      "style": "Heading 3",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "table",
+      "rows": [
+        [
+          {
+            "text": "Tác vụ\nPrompt",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Tác vụ",
+                "style": "normal",
+                "bold": true,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Prompt",
+                "style": "normal",
+                "bold": true,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "1",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "1",
+                "style": "normal",
+                "bold": true,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "2",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": " 2",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "3",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "3",
+                "style": "normal",
+                "bold": true,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          }
+        ],
+        [
+          {
+            "text": "Cơ bản",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Cơ bản",
+                "style": "normal",
+                "bold": true,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Hãy tóm tắt tài liệu sau bằng tiếng việt: “Sex and Gender Equity in Research: rationale for the SAGER guidelines and recommended use”",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Hãy tóm tắt tài liệu sau bằng tiếng việt: “Sex and Gender Equity in Research: rationale for the SAGER guidelines and recommended use”",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Hãy giải thích khái niệm: Không, thời gian",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Hãy giải thích khái niệm: Không, thời gian ",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Tạo 1 bộ câu hỏi phỏng vấn cho chủ đề nghiên cứu: Ảnh hưởng của nội dung ăn uống trên TikTok.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Tạo 1 bộ câu hỏi phỏng vấn cho chủ đề nghiên cứu: Ảnh hưởng của nội dung ăn uống trên TikTok.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          }
+        ],
+        [
+          {
+            "text": "Cải tiến",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Cải tiến",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Hãy tóm tắt bài viết “Sex and Gender Equity in Research: rationale for the SAGER guidelines and recommended use” thành 3 phần như sau: (1) Mục đích của bài viết; (2) Nội dung trọng tâm của bài viết và phương pháp nghiên cứu; (3) Giải pháp, kiến nghị với giọng điệu mang tính học thuật, phù hợp với nghiên cứu sinh.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Hãy tóm tắt bài viết “Sex and Gender Equity in Research: rationale for the SAGER guidelines and recommended use” thành 3 phần như sau: (1) Mục đích của bài viết; (2) Nội dung trọng tâm của bài viết và phương pháp nghiên cứu; (3) Giải pháp, kiến nghị với giọng điệu mang tính học thuật, phù hợp với nghiên cứu sinh.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Giải thích khái niệm “không, thời gian” theo hai khía cạnh khoa học, triết học. Ở phần khoa học, giải thích rõ khái niệm trong Cơ học lượng tử và lấy ví dụ dễ hiểu để hình dung. Ở phần triết học, giải thích khái niệm theo triết học Mác - Lênin và đặc biệt là nguồn gốc của khái niệm. Cuối cùng, viết một đoạn kết ngắn nêu điểm chung giữa hai góc nhìn, tổng độ dài khoảng 180-250 từ",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Giải thích khái niệm “không, thời gian” theo hai khía cạnh khoa học, triết học. Ở phần khoa học, giải thích rõ khái niệm trong Cơ học lượng tử và lấy ví dụ dễ hiểu để hình dung. Ở phần triết học, giải thích khái niệm theo triết học Mác - Lênin và đặc biệt là nguồn gốc của khái niệm. Cuối cùng, viết một đoạn kết ngắn nêu điểm chung giữa hai góc nhìn, tổng độ dài khoảng 180-250 từ",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Soạn mười câu hỏi để phỏng vấn cho chủ đề “ Ảnh hưởng của nội dung ăn uống trên TikTok” gồm năm câu trắc nghiệm và năm câu tự luận. Các câu trắc nghiệm nên bao phủ các nội dung cơ bản: thời gian sử dụng nền tảng, tần suất xuất hiện nội dung, tâm lý. Các câu tự luận nên liên quan đến tâm lý người dùng khi tiếp nhận nội dung ăn uống trên TikTok. Mỗi câu kèm chú thích ngắn gọn nêu mục tiêu kiểm tra, ví dụ: “Kiểm tra tần suất sử dụng TikTok”.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Soạn mười câu hỏi để phỏng vấn cho chủ đề “ Ảnh hưởng của nội dung ăn uống trên TikTok” gồm năm câu trắc nghiệm và năm câu tự luận. Các câu trắc nghiệm nên bao phủ các nội dung cơ bản: thời gian sử dụng nền tảng, tần suất xuất hiện nội dung, tâm lý. Các câu tự luận nên liên quan đến tâm lý người dùng khi tiếp nhận nội dung ăn uống trên TikTok. Mỗi câu kèm chú thích ngắn gọn nêu mục tiêu kiểm tra, ví dụ: “Kiểm tra tần suất sử dụng TikTok”.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          }
+        ],
+        [
+          {
+            "text": "Nâng cấp",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Nâng cấp",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Hãy đóng vai giáo sư hướng dẫn khoa học. Hãy tóm tắt bài viết “Sex and Gender Equity in Research: rationale for the SAGER guidelines and recommended use” bằng tiếng  thành 3 phần chuẩn học thuật cho nghiên cứu sinh. Quy trình viết cần dựa trên tư duy logic (bối cảnh -> phương pháp -> giải pháp), áp dụng văn phong học thuật. Ba phần :(1) Mục đích của bài viết: Chỉ rõ bối cảnh và lỗ hổng tri thức bài viết muốn giải quyết; (2) Nội dung trọng tâm của bài viết và phương pháp nghiên cứu: Phân tích luận điểm chính và phương pháp luận (như tổng quan tài liệu); (3) Giải pháp, kiến nghị: Tổng hợp giải pháp và kiến nghị trong bài và đưa ra bản tóm tắt các giải pháp, kiến nghị đó. Bây giờ, hãy thực hiện bài tóm tắt 250-300 từ cho bài báo trên theo đúng cấu trúc 3 phần này.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Hãy đóng vai giáo sư hướng dẫn khoa học. Hãy tóm tắt bài viết “Sex and Gender Equity in Research: rationale for the SAGER guidelines and recommended use” bằng tiếng  thành 3 phần chuẩn học thuật cho nghiên cứu sinh. Quy trình viết cần dựa trên tư duy logic (bối cảnh -> phương pháp -> giải pháp), áp dụng văn phong học thuật. Ba phần :(1) Mục đích của bài viết: Chỉ rõ bối cảnh và lỗ hổng tri thức bài viết muốn giải quyết; (2) Nội dung trọng tâm của bài viết và phương pháp nghiên cứu: Phân tích luận điểm chính và phương pháp luận (như tổng quan tài liệu); (3) Giải pháp, kiến nghị: Tổng hợp giải pháp và kiến nghị trong bài và đưa ra bản tóm tắt các giải pháp, kiến nghị đó. Bây giờ, hãy thực hiện bài tóm tắt 250-300 từ cho bài báo trên theo đúng cấu trúc 3 phần này.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Bạn là một giáo sư vật lý lý thuyết có chuyên môn sâu về triết học khoa học. Hãy đóng vai trò này để giải thích khái niệm “không, thời gian” đáp ứng các yêu cầu và cấu trúc sau, kiểm soát tổng độ dài trong khoảng 180-250 từ: (1) Góc nhìn Khoa học (Cơ học lượng tử): Hãy giải thích không-thời gian không còn là một nền đài tĩnh lặng mà là các hạt bọt lượng tử hỗn loạn ở quy mô Planck và đưa ra một “bức tranh” cho người đọc dễ tưởng tượng về khái niệm hơn; (2) Góc nhìn Triết học (Mác - Lênin): Khẳng định không, thời gian là hình thức tồn tại cố hữu của vật chất đang vận động, có nguồn gốc khách quan từ chính thế giới vật chất chứ không do ý thức sinh ra. Giải thích sâu hơn về nguồn gốc này và đưa ra một ví dụ trong đời sống; (3) Đoạn kết: Chỉ ra điểm chung cốt lõi giữa hai góc nhìn: Cả hai đều thống nhất rằng không, thời gian không tồn tại độc lập, tách rời mà gắn liền với thực thể hoặc vật chất vận động. Bây giờ, hãy áp dụng cấu trúc tư duy logic trên để viết câu trả lời hoàn chỉnh, ngắn gọn trong giới hạn 180-250 từ.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Bạn là một giáo sư vật lý lý thuyết có chuyên môn sâu về triết học khoa học. Hãy đóng vai trò này để giải thích khái niệm “không, thời gian” đáp ứng các yêu cầu và cấu trúc sau, kiểm soát tổng độ dài trong khoảng 180-250 từ: (1) Góc nhìn Khoa học (Cơ học lượng tử): Hãy giải thích không-thời gian không còn là một nền đài tĩnh lặng mà là các hạt bọt lượng tử hỗn loạn ở quy mô Planck và đưa ra một “bức tranh” cho người đọc dễ tưởng tượng về khái niệm hơn; (2) Góc nhìn Triết học (Mác - Lênin): Khẳng định không, thời gian là hình thức tồn tại cố hữu của vật chất đang vận động, có nguồn gốc khách quan từ chính thế giới vật chất chứ không do ý thức sinh ra. Giải thích sâu hơn về nguồn gốc này và đưa ra một ví dụ trong đời sống; (3) Đoạn kết: Chỉ ra điểm chung cốt lõi giữa hai góc nhìn: Cả hai đều thống nhất rằng không, thời gian không tồn tại độc lập, tách rời mà gắn liền với thực thể hoặc vật chất vận động. Bây giờ, hãy áp dụng cấu trúc tư duy logic trên để viết câu trả lời hoàn chỉnh, ngắn gọn trong giới hạn 180-250 từ.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          },
+          {
+            "text": "Bạn là một chuyên gia nghiên cứu kế hoạch khảo sát và phân tích hành vi Người dùng mạng xã hội. Hãy đóng vai trò này để tạo ra một bộ câu hỏi phỏng vấn gồm 10 câu (5 trắc nghiệm, 5 tự luận) về chủ đề “Ảnh hưởng của nội dung ăn uống trên TikTok” theo cấu trúc và tư duy sau: (1) Khung tư duy: Bước 1 (Trắc nghiệm): Đo lường các biến số nền tảng (thời gian sử dụng, tần suất tiếp xúc) và bước đầu chạm đến nhận thức tâm lý. Bước 2 (Tự luận): Khai thác sâu vào thế giới nội tâm, cơ chế  kích thích tâm lý (thèm ăn, FOMO, áp lực vóc dáng) khi xem clip ăn uống. Bước 3 (Chú thích): Mỗi câu bắt buộc kèm một dòng chú thích ngắn gọn trong ngoặc vuông về mục tiêu kiểm tra; (2) Ví dụ mẫu: Mẫu câu trắc nghiệm: Bạn thường xem các video về ẩm thực/mukbang trên TikTok vào thời điểm nào trong ngày? (A. khi đang ăn; B. trước khi ngủ; C. bất cứ khi nào rảnh) -> mục tiêu: xác định thời điểm kích thích tâm lý ăn uống. Mẫu câu tự luận: Cảm xúc của bạn thay đổi như thế nào khi xem một video ăn uống lúc đang đói? Hãy mô tả xu hướng hành động ngay sau đó của bạn. -> mục tiêu: Đánh giá cơ chế kích thích hành vi từ cảm xúc tiêu thụ nội dung.\nBây giờ, hãy áp dụng toàn bộ tiêu chuẩn trên để soạn 10 câu hỏi phỏng vấn hoàn chỉnh, đảm bảo phần trắc nghiệm bao phủ thời gian, tần suất, tâm lý cơ bản, phần tự luận xoáy sâu vào tâm lý người dùng.",
+            "blocks": [
+              {
+                "type": "paragraph",
+                "text": "Bạn là một chuyên gia nghiên cứu kế hoạch khảo sát và phân tích hành vi Người dùng mạng xã hội. Hãy đóng vai trò này để tạo ra một bộ câu hỏi phỏng vấn gồm 10 câu (5 trắc nghiệm, 5 tự luận) về chủ đề “Ảnh hưởng của nội dung ăn uống trên TikTok” theo cấu trúc và tư duy sau: (1) Khung tư duy: Bước 1 (Trắc nghiệm): Đo lường các biến số nền tảng (thời gian sử dụng, tần suất tiếp xúc) và bước đầu chạm đến nhận thức tâm lý. Bước 2 (Tự luận): Khai thác sâu vào thế giới nội tâm, cơ chế  kích thích tâm lý (thèm ăn, FOMO, áp lực vóc dáng) khi xem clip ăn uống. Bước 3 (Chú thích): Mỗi câu bắt buộc kèm một dòng chú thích ngắn gọn trong ngoặc vuông về mục tiêu kiểm tra; (2) Ví dụ mẫu: Mẫu câu trắc nghiệm: Bạn thường xem các video về ẩm thực/mukbang trên TikTok vào thời điểm nào trong ngày? (A. khi đang ăn; B. trước khi ngủ; C. bất cứ khi nào rảnh) -> mục tiêu: xác định thời điểm kích thích tâm lý ăn uống. Mẫu câu tự luận: Cảm xúc của bạn thay đổi như thế nào khi xem một video ăn uống lúc đang đói? Hãy mô tả xu hướng hành động ngay sau đó của bạn. -> mục tiêu: Đánh giá cơ chế kích thích hành vi từ cảm xúc tiêu thụ nội dung.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              },
+              {
+                "type": "paragraph",
+                "text": "Bây giờ, hãy áp dụng toàn bộ tiêu chuẩn trên để soạn 10 câu hỏi phỏng vấn hoàn chỉnh, đảm bảo phần trắc nghiệm bao phủ thời gian, tần suất, tâm lý cơ bản, phần tự luận xoáy sâu vào tâm lý người dùng.",
+                "style": "normal",
+                "bold": false,
+                "italic": false,
+                "alignment": null,
+                "numbering": null,
+                "links": []
+              }
+            ],
+            "colspan": 1,
+            "vmerge": null
+          }
+        ]
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Kết quả trả về (sử dụng AI Gemini) và so sánh kết quả:",
+      "style": "Heading 3",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Kết quả do AI Gemini trả về như sau:",
+      "style": "normal",
+      "bold": true,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Tác vụ 1: https://g.co/gemini/share/4979212ad88f",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": "https://g.co/gemini/share/4979212ad88f",
+          "href": "https://g.co/gemini/share/4979212ad88f"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Tác vụ 2: https://g.co/gemini/share/72f7ce13c9f6",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": "https://g.co/gemini/share/72f7ce13c9f6",
+          "href": "https://g.co/gemini/share/72f7ce13c9f6"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Tác vụ 3: https://g.co/gemini/share/fc2612fa7c28",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": "https://g.co/gemini/share/fc2612fa7c28",
+          "href": "https://g.co/gemini/share/fc2612fa7c28"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "So sánh giữa các kết quả cho thấy:",
+      "style": "normal",
+      "bold": true,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Đầu tiên, kết quả từ prompt cơ bản chỉ dừng lại ở mức bản nháp. Kết quả trả về rất chung chung, lý thuyết suông và đầy văn mẫu, khiến người dùng có thể mất thêm thời gian để lọc ý và viết lại. Đến prompt cải tiến, kết quả nhận được đã tốt hơn hẳn. Nhờ được định hình vai trò và ngữ cảnh, câu trả lời đi đúng trọng tâm người dùng muốn, có cấu trúc mạch lạc và đúng giọng văn mà người dùng cần. Kết quả tốt nhất là kết quả từ prompt nâng cấp, đây là một sản phẩm đạt yêu cầu của người dùng một cách hoàn hảo, chuyên nghiệp. Đầu ra sắc sảo, có lập luận chặt chẽ theo từng bước tư duy và cá nhân hóa, giúp người dùng xử lý được cả những case study phức tạp, tiết kiệm thời gian. Tóm lại, đầu vào càng chi tiết và logic thì đầu ra sẽ càng hoàn hảo và chuyên nghiệp - đáp ứng chính xác yêu cầu người dùng mong đợi.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Phân tích lý do tại sao một số prompt hiệu quả hơn các prompt khác.",
+      "style": "Heading 3",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Trong quá trình tương tác với các mô hình trí tuệ nhân tạo (AI), chúng ta thường nhận thấy một hiện tượng rõ rệt: cùng một hệ thống AI, cùng một mục đích cốt lõi, nhưng hai câu lệnh (prompt) khác nhau sẽ trả về hai kết quả có khoảng cách rất lớn về mặt chất lượng. Một số prompt tạo ra câu trả lời xuất sắc, chính xác và có chiều sâu, trong khi số khác chỉ nhận về những phản hồi hời hợt, lan man hoặc thậm chí là lạc đề.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Sự khác biệt này không đến từ sự ngẫu nhiên, mà phụ thuộc hoàn toàn vào cấu trúc, ngôn ngữ và tư duy thiết lập của người đặt câu hỏi. Dưới đây là phân tích về những lý do cốt lõi giúp một số prompt đạt hiệu quả vượt trội hơn:",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Khả năng định hình mục tiêu đầu ra: Một prompt hiệu quả trước hết là một prompt triệt tiêu được tính mơ hồ, không đúng trọng tâm. Khi đối mặt với các câu lệnh chung chung, AI buộc phải rơi vào trạng thái đoán ý người dùng. Vì bản chất của mô hình ngôn ngữ là dự đoán từ ngữ tiếp theo, nếu mục tiêu không rõ ràng, AI sẽ chọn giải pháp an toàn nhất: đưa ra một câu trả lời bao quát và trống rỗng.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Ngược lại, các prompt xuất sắc luôn định vị chính xác mong muốn thông qua các động từ tư duy cụ thể như: “phân tích”, “so sánh”, “phản biện” hoặc “tóm tắt”. Khi mục tiêu đầu ra được giới hạn rõ ràng, AI sẽ tự động kích hoạt các cấu trúc lập luận và mức độ chi tiết phù hợp, giúp câu trả lời đi thẳng vào trọng tâm và tránh hiện tượng lan man.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "2. Việc cung cấp bối cảnh đầy đủ: AI không sống trong thế giới thực của bạn, nó không tự biết bạn là ai, bạn đang làm dự án gì và đối tượng hướng tới của bạn là ai nếu bạn không cung cấp. Một định nghĩa hay một kiến thức đơn thuần không bao giờ có một đáp án cố định cho mọi tình huống. Vì vậy, việc cung cấp đầy đủ ngữ cảnh tạo ra hai giá trị cốt lõi:",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Xác định đối tượng tiếp nhận: Giống như ví dụ về \"hợp đồng dân sự\", cách giải thích cho một sinh viên luật cần sự chuẩn xác về thuật ngữ pháp lý, nhưng cách giải thích cho một doanh nhân lại liên quan đến rủi ro thương mại và tính ứng dụng. Prompt hiệu quả luôn làm rõ \"kết quả này dành cho ai\".",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Tối ưu hóa lượng thông tin: Ngữ cảnh giúp AI hiểu được mức độ nông/sâu cần thiết của kiến thức, từ đó lọc bỏ các thông tin thừa thãi và giữ lại những giá trị cốt lõi nhất cho người dùng.",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Tư duy phân vai và thiết lập Tiêu chuẩn: Các prompt có hiệu quả cao thường không hoạt động theo cơ chế của một công cụ tìm kiếm (nhập từ khóa và nhận kết quả). Chúng hoạt động theo tư duy hệ thống, nơi người dùng chủ động thiết lập một bộ khung hành vi cho AI. (Wei et al.,2022 & Kojima et al2,2022)",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Thiết lập vai trò: Khi prompt bắt đầu bằng việc giao vai trò (\"Bạn là một chuyên gia khảo cứu dữ liệu\", \"Bạn là một giảng viên đại học\"), AI sẽ cô lập vùng dữ liệu liên quan để sử dụng hệ ngôn ngữ và tư duy của vai trò đó.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Thiết lập rào cản: Prompt tốt luôn có các giới hạn: định dạng hiển thị (bảng biểu, bullet points, các đoạn văn ngắn), độ dài mong muốn, hoặc những điều tuyệt đối không được nhắc đến. Chính những rào cản này lại ngăn chặn hiện tượng \"ảo tưởng\" (hallucination) của AI và ép AI phải tối ưu hóa tư duy trong một biên độ nào đó. (Brown et al.,2020 & OpenAI, 2023)",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Kết luận",
+      "style": "normal",
+      "bold": true,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Hiệu quả của một prompt thực chất là tấm gương phản chiếu năng lực tư duy logic của người đặt câu hỏi. Một prompt tạo ra kết quả hoàn hảo không cần",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "sự phức tạp về mặt kỹ thuật hay các câu lệnh ma thuật, nó chỉ cần sự rõ ràng, cụ thể và khả năng dẫn dắt.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Khi người dùng nắm bắt được mục tiêu, cung cấp đủ không gian bối cảnh và kiểm soát được cấu trúc đầu ra, AI sẽ từ một cỗ máy trả lời tự động trở thành một người cộng sự đắc lực và hiểu ý.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Tổng hợp các nguyên tắc và mẹo viết prompt hiệu quả dựa trên kết quả thử nghiệm.",
+      "style": "Heading 3",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Từ những tương tác thực tế với mô hình AI Gemini, em rút được cho mình những nguyên tắc sau để viết prompt một cách có hiệu quả hơn:",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Rõ mục tiêu: Đưa ra một mục tiêu cụ thể sẽ giúp mô hình AI biết nhiệm vụ của mình (ví dụ: tóm tắt, phân tích, so sánh), từ đó chọn cấu trúc ngôn ngữ và mức độ chi tiết phù hợp.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 5
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Cung cấp ngữ cảnh: Ngữ cảnh (ví dụ: đóng vai một ai đó, đối tượng độc giả, bối cảnh sử dụng) sẽ định hướng giọng điệu, ví dụ và mức độ chuyên sâu của câu trả lời mà mô hình AI sẽ phản hồi lại.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 5
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Cấu trúc đầu ra: Yêu cầu định dạng giúp mô hình tổ chức thông tin logic, dễ đọc và đáp ứng mục tiêu sử dụng (ví dụ: tóm tắt bài đọc thành ba phần: Mục tiêu, nội dung chính và giải pháp).",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 5
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Cụ thể và giới hạn phạm vi: Vì sao: Giới hạn phạm vi (ví dụ: giới hạn độ dài, chủ đề, chiều sâu), ngăn kết quả trở nên lan man và giúp đạt được độ chính xác mong muốn.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 5
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Khuyến khích sáng tạo: Khi cần tư duy mở hay góc nhìn mới, khuyến khích sáng tạo cho phép AI sinh ý tưởng đa dạng thay vì chỉ máy móc liệt kê (ví dụ: đặt câu hỏi mở rộng, phản biện giả định).",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 5
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Yêu cầu trích nguồn: Trích nguồn sẽ làm độ tin cậy tăng lên đáng kể, cho phép kiểm chứng và hạn chế hiện tượng ảo tưởng (hallucination) trong các nghiên cứu.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 5
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Thử nghiệm và tinh chỉnh liên tục: Chỉnh sửa prompt theo phản hồi thực tế, mô hình có thể cần được lặp để hiệu chỉnh chính xác yêu cầu phức tạp (ví dụ: đi từ những câu lệnh đơn giản, sau đó thêm dần các điều kiện ràng buộc dựa trên kết quả đầu ra chưa ưng ý).",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 5
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "6. Kết luận",
+      "style": "Heading 3",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Qua quá trình thử nghiệm, em nhận ra viết prompt không chỉ là đưa câu hỏi cho AI, mà là cách chúng ta định hướng tư duy cho AI. Một câu lệnh tốt luôn cần có mục tiêu cụ thể, ngữ cảnh rõ ràng, cấu trúc đầu ra sẵn sàng và phạm vi được giới hạn hợp lý. Khi mình biết cách truyền đạt yêu cầu một cách logic, AI sẽ phản hồi chính xác và sâu sắc hơn rất nhiều. Đồng thời, việc kích hoạt sự sáng tạo, yêu cầu trích nguồn phối hợp với quá trình lặp đi lặp lại để tinh chỉnh sẽ giúp em hoàn toàn kiểm soát chất lượng kết quả. Có thể nói prompt chính là chiếc cầu nối giữa ý tưởng của con người và năng lực của máy tính, thể hiện tầm nhìn và khả năng phân tích của người dùng trong thời đại AI phát triển.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "7. Tài liệu tham khảo:",
+      "style": "Heading 3",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Wei, J., Wang, X., Schuurmans, D., Bosma, M., Xia, F., Chi, E., Le, Q. V., & Zhou, D. (2022). Chain-of-thought prompting elicits reasoning in large language models. Advances in Neural Information Processing Systems, 35, 24824–24837. https://arxiv.org/abs/2201.11903",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": "https://arxiv.org/abs/2201.11903",
+          "href": "https://arxiv.org/abs/2201.11903"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Kojima, T., Gu, S. S., Reid, M., Matsuo, Y., & Iwasawa, Y. (2022). Large language models are zero-shot reasoners. Advances in Neural Information Processing Systems, 35, 22199–22213. https://arxiv.org/abs/2205.11916",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": " https://arxiv.org/abs/2205.11916",
+          "href": "https://arxiv.org/abs/2205.11916"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Brown, T., Mann, B., Ryder, N., Subbiah, M., Kaplan, J. D., Dhariwal, P., Neelakantan, A., Shyam, P., Sastry, G., Askell, A., Agarwal, S., Herbert-Voss, A., Krueger, G., Henighan, T., Child, R., Ramesh, A., Ziegler, D., Wu, J., Winter, C., . . . Amodei, D. (2020). Language models are few-shot learners. Advances in Neural Information Processing Systems, 33, 1877–1901. https://arxiv.org/abs/2005.14165",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": "https://arxiv.org/abs/2005.14165",
+          "href": "https://arxiv.org/abs/2005.14165"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "OpenAI. (2023). GPT-4 technical report. arXiv preprint arXiv:2303.08774. https://arxiv.org/abs/2303.08774",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": "https://arxiv.org/abs/2303.08774",
+          "href": "https://arxiv.org/abs/2303.08774"
+        }
+      ]
+    }
+  ],
+  "imageCount": 0
+}

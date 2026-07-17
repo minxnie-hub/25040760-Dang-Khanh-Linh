@@ -1,0 +1,761 @@
+{
+  "slug": "bai-6",
+  "number": 6,
+  "title": "Sử dụng AI có trách nhiệm trong học tập và nghiên cứu",
+  "blocks": [
+    {
+      "type": "paragraph",
+      "text": "BÁO CÁO",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "SỬ DỤNG AI CÓ TRÁCH NHIỆM TRONG HỌC THUẬT",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Họ tên: Đặng Khánh Linh",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "MSSV: 25040760",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Lớp: 25E17",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "I. Phân tích chính sách về sử dụng AI trong học tập",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Trí tuệ nhân tạo (AI) đang trở thành công cụ hỗ trợ phổ biến trong giáo dục. ChatGPT, Gemini, Copilot hay Grammarly AI giúp sinh viên tìm kiếm thông tin, sửa lỗi ngữ pháp, tóm tắt tài liệu và hỗ trợ học tập. Tuy nhiên, việc sử dụng AI cần tuân thủ các nguyên tắc học thuật để đảm bảo tính trung thực và phát triển năng lực cá nhân.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Theo định hướng của Đại học Quốc gia Hà Nội, AI được xem là công cụ hỗ trợ chứ không thay thế người học. Sinh viên phải chịu trách nhiệm về toàn bộ nội dung mình nộp, kể cả khi có sử dụng AI.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Những nguyên tắc chính gồm:",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "AI được phép hỗ trợ nghiên cứu, tìm ý tưởng và chỉnh sửa.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Không sao chép nguyên văn kết quả AI rồi nộp như sản phẩm cá nhân.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Phải kiểm chứng thông tin do AI cung cấp.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Tôn trọng bản quyền và trích dẫn nguồn khi cần.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Bảo vệ dữ liệu cá nhân và thông tin học tập.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Đối với sinh viên ULIS, AI đặc biệt hữu ích trong việc luyện kỹ năng tiếng Anh, kiểm tra ngữ pháp, mở rộng vốn từ và luyện viết học thuật. Tuy nhiên, nếu phụ thuộc hoàn toàn vào AI sẽ làm giảm khả năng tư duy và năng lực sử dụng ngôn ngữ.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "II. Mô tả quá trình sử dụng AI",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Trong môn Tiếng Anh học thuật, em sử dụng ChatGPT để hỗ trợ viết bài luận về chủ đề \"Healthy Lifestyle\".",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Quy trình thực hiện:",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Bước 1: Xác định yêu cầu của giảng viên.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Bước 2: Sử dụng AI để gợi ý dàn ý và từ vựng.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Bước 3: Tự viết bài dựa trên dàn ý.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Bước 4: Nhờ AI kiểm tra lỗi ngữ pháp và cách diễn đạt.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Bước 5: Đối chiếu với tài liệu học trên lớp.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Bước 6: Chỉnh sửa theo phong cách viết của bản thân trước khi nộp.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Mô tả cách đánh giá, chỉnh sửa và tích hợp đầu ra của AI:",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Sau khi nhận được kết quả từ AI, em không sử dụng nguyên văn nội dung mà tiến hành đánh giá theo các tiêu chí: độ chính xác của thông tin, mức độ phù hợp với yêu cầu đề bài, tính logic của lập luận và phong cách diễn đạt. Đối với những thông tin mang tính thực tế hoặc học thuật, em đối chiếu với giáo trình, tài liệu môn học và các nguồn đáng tin cậy để kiểm chứng trước khi sử dụng.",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Trong quá trình chỉnh sửa, em loại bỏ những nội dung còn chung chung, bổ sung ví dụ phù hợp và điều chỉnh cách diễn đạt để phản ánh đúng hiểu biết cũng như phong cách viết của bản thân. Những gợi ý về ngữ pháp, từ vựng và cấu trúc câu từ AI chỉ được sử dụng khi thực sự giúp bài viết rõ ràng và mạch lạc hơn.",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Cuối cùng, em tích hợp các ý tưởng hữu ích của AI vào bài viết theo cách chọn lọc, kết hợp với kiến thức đã học trên lớp và quan điểm cá nhân. Sản phẩm hoàn chỉnh vì vậy không phải là kết quả do AI tạo ra hoàn toàn mà là bài viết do em tự xây dựng, trong đó AI đóng vai trò là công cụ hỗ trợ học tập và chỉnh sửa.",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Link minh chứng: https://chatgpt.com/share/6a58a0b4-1bdc-83ec-815b-d046f3e578cd",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": "https://chatgpt.com/share/6a58a0b4-1bdc-83ec-815b-d046f3e578cd",
+          "href": "https://chatgpt.com/share/6a58a0b4-1bdc-83ec-815b-d046f3e578cd"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "Thông qua quá trình này, AI đóng vai trò như một trợ lý học tập chứ không thay thế việc tự học.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "III. Phân tích các vấn đề đạo đức",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "1. Ranh giới giữa hỗ trợ và gian lận học thuật",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "AI giúp người học tiết kiệm thời gian nhưng cũng có thể dẫn đến gian lận nếu sinh viên nộp nguyên văn nội dung do AI tạo ra mà không chỉnh sửa.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Việc sử dụng AI hợp lý là tham khảo ý tưởng, học cách diễn đạt và kiểm tra lỗi. Ngược lại, việc để AI làm toàn bộ bài tập rồi nộp là hành vi thiếu trung thực học thuật.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "2. Quyền sở hữu trí tuệ và trích dẫn",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "AI tổng hợp thông tin từ nhiều nguồn nên đôi khi có thể tạo ra nội dung gần giống tài liệu gốc.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Sinh viên cần:",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "trích dẫn tài liệu tham khảo",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 2
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "không sao chép nguyên văn",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 2
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "ghi rõ nếu bài có sử dụng AI theo yêu cầu của giảng viên",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 2
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Điều này giúp tôn trọng quyền sở hữu trí tuệ và tránh đạo văn.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "3. Tác động đến quá trình học tập",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "AI mang lại nhiều lợi ích:",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "học nhanh hơn",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 3
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "mở rộng kiến thức",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 3
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "cải thiện kỹ năng viết",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "hỗ trợ học ngoại ngữ.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 1
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Tuy nhiên cũng có hạn chế:",
+      "style": "normal",
+      "bold": false,
+      "italic": true,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "giảm khả năng tư duy độc lập",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 4
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "dễ tin vào thông tin sai",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 4
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "phụ thuộc vào AI",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 4
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "giảm khả năng sáng tạo nếu lạm dụng.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": {
+        "level": 0,
+        "numId": 4
+      },
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Vì vậy, AI nên được xem là công cụ hỗ trợ chứ không phải người học thay mình.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "IV. Bộ nguyên tắc cá nhân khi sử dụng AI",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Nguyên tắc 1: Chỉ sử dụng AI để hỗ trợ học tập, không để AI làm toàn bộ bài.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Nguyên tắc 2: Luôn kiểm chứng thông tin từ nhiều nguồn đáng tin cậy.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Nguyên tắc 3: Không sao chép nguyên văn kết quả AI.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Nguyên tắc 4: Tôn trọng bản quyền và trích dẫn đầy đủ.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Nguyên tắc 5: Không nhập dữ liệu cá nhân hoặc thông tin mật vào AI.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Nguyên tắc 6: Luôn chỉnh sửa nội dung theo hiểu biết của bản thân.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Nguyên tắc 7: Chịu trách nhiệm hoàn toàn về sản phẩm học tập đã nộp.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "V. Inforgraphic minh họa “Sử dụng AI có trách nhiệm trong Học thuật”",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Link: https://canva.link/gx7awmf0aufaj12",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": "https://canva.link/gx7awmf0aufaj12",
+          "href": "https://canva.link/gx7awmf0aufaj12"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "V. Kết luận",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "AI đang tạo ra nhiều cơ hội đổi mới trong giáo dục. Đối với sinh viên ULIS, AI hỗ trợ hiệu quả trong học ngoại ngữ, nghiên cứu và viết học thuật. Tuy nhiên, giá trị của việc học vẫn nằm ở khả năng tư duy, sáng tạo và trung thực của người học. Sử dụng AI có trách nhiệm sẽ giúp sinh viên phát triển kỹ năng và đáp ứng yêu cầu của môi trường học tập hiện đại.",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Tài liệu tham khảo",
+      "style": "normal",
+      "bold": true,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "OpenAI. (2025). ChatGPT. https://chatgpt.com",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": "https://chatgpt.com",
+          "href": "https://chatgpt.com"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "UNESCO. (2023). Guidance for Generative AI in Education and Research. https://unesdoc.unesco.org",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": [
+        {
+          "text": "https://unesdoc.unesco.org",
+          "href": "https://unesdoc.unesco.org"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "text": "UNESCO. (2021). Recommendation on the Ethics of Artificial Intelligence. https://www.unesco.org",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    },
+    {
+      "type": "paragraph",
+      "text": "Đại học Quốc gia Hà Nội. (2025). AI & Công nghệ số https://cdnportal.vnu.edu.vn/data/0/documents/2025/08/12/upload_9/403-p13-15.pdf",
+      "style": "normal",
+      "bold": false,
+      "italic": false,
+      "alignment": null,
+      "numbering": null,
+      "links": []
+    }
+  ],
+  "imageCount": 0
+}
