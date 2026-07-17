@@ -53,13 +53,16 @@ export default function HomePage() {
       <div className="hero-inner section-shell">
         <div className="hero-copy">
           <p className="hero-kicker"><SparkIcon /> Nhập môn Công nghệ số và Ứng dụng Trí tuệ nhân tạo</p>
-          <h1 aria-label="Đặng Khánh Linh" className="hero-display-title">
-            <span className="hero-title-mask hero-title-top"><span className="hero-title-line">Đặng</span></span>
-            <span className="hero-title-mask hero-title-bottom"><span className="hero-title-line">Khánh Linh</span></span>
-          </h1>
-          <div className="hero-editorial-note">
-            <span>field note 01</span>
-            <p>Sáu chương học tập, một hành trình ghi lại theo cách rất riêng của tớ.</p>
+          <div className="hero-name-block">
+            <h1 aria-label="Đặng Khánh Linh" className="hero-display-title">
+              <span className="hero-title-line hero-title-first">Đặng</span>
+              <span className="hero-title-line hero-title-main">Khánh Linh</span>
+            </h1>
+            <div className="hero-name-meta" aria-label="Thông tin portfolio">
+              <span>Student portfolio</span>
+              <span>25040760 · 25E17</span>
+              <span>English Language · ULIS</span>
+            </div>
           </div>
           <p className="hero-manifesto">Chào cậu, đây là cuốn sổ bầu trời nơi tớ lưu lại sáu dấu mốc trong hành trình làm quen với công nghệ số và AI. Mỗi chương là một kỹ năng tớ đã học, một thử thách tớ đã đi qua và một điều mới tớ muốn mang theo.</p>
           <div className="hero-actions">

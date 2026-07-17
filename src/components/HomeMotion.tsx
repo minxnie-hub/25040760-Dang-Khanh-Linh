@@ -13,8 +13,9 @@ export function HomeMotion() {
     const intro = gsap.timeline({ defaults: { ease: "power3.out" }, delay: 0.06 });
     intro
       .fromTo(".hero-kicker", { autoAlpha: 0, y: 14 }, { autoAlpha: 1, y: 0, duration: 0.42, clearProps: "transform" })
-      .fromTo(".hero-title-line", { yPercent: 108 }, { yPercent: 0, duration: 0.72, stagger: 0.07, clearProps: "transform" }, "-=.18")
-      .fromTo(".hero-manifesto", { autoAlpha: 0, y: 18 }, { autoAlpha: 1, y: 0, duration: 0.48, clearProps: "transform" }, "-=.4")
+      .fromTo(".hero-title-line", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.48, stagger: 0.08 }, "-=.18")
+      .fromTo(".hero-name-meta", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.36 }, "-=.28")
+      .fromTo(".hero-manifesto", { autoAlpha: 0 }, { autoAlpha: 1, duration: 0.42 }, "-=.24")
       .fromTo(".hero-actions > *", { autoAlpha: 0, y: 10 }, { autoAlpha: 1, y: 0, duration: 0.34, stagger: 0.06, clearProps: "transform" }, "-=.3")
       .fromTo(".portrait-plate", { autoAlpha: 0, y: 30, rotation: 1.2, scale: 0.97 }, { autoAlpha: 1, y: 0, rotation: -1.4, scale: 1, duration: 0.72 }, "-=.62")
       .fromTo(".portrait-orbit", { strokeDashoffset: 780 }, { strokeDashoffset: 0, duration: 0.9, ease: "power2.inOut" }, "-=.58")
@@ -23,13 +24,11 @@ export function HomeMotion() {
     gsap.utils.toArray<HTMLElement>("[data-reveal]").forEach((element) => {
       gsap.fromTo(
         element,
-        { autoAlpha: 0, y: 28 },
+        { autoAlpha: 0 },
         {
           autoAlpha: 1,
-          y: 0,
-          duration: 0.62,
-          ease: "power3.out",
-          clearProps: "transform",
+          duration: 0.52,
+          ease: "power2.out",
           scrollTrigger: {
             trigger: element,
             start: "top 88%",

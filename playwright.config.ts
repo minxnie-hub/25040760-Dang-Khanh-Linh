@@ -6,7 +6,7 @@ export default defineConfig({
   expect: { timeout: 8_000 },
   use: {
     launchOptions: { executablePath: "/usr/bin/chromium", args: ["--no-sandbox", "--disable-dev-shm-usage", "--no-proxy-server", "--disable-gpu", "--use-angle=swiftshader", "--use-gl=swiftshader"] },
-    baseURL: "http://172.26.36.33:4173",
+    baseURL: "http://127.0.0.1:4173",
     screenshot: "only-on-failure",
     trace: "retain-on-failure",
   },

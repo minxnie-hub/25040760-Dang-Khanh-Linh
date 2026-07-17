@@ -53,3 +53,34 @@ test("Vietnamese footer title renders without clipping", async ({ page }) => {
   expect(metrics.scrollWidth).toBeLessThanOrEqual(metrics.clientWidth + 1);
   expect(metrics.scrollHeight).toBeLessThanOrEqual(metrics.clientHeight + 1);
 });
+
+test("all Vietnamese display text uses the stable serif stack without clipping", async ({ page }) => {
+  await openHome(page);
+  const selectors = [
+    ".hero-display-title",
+    ".section-heading h2",
+    ".goals-intro h2",
+    ".goal-step p",
+    ".contents-heading h2",
+    ".closing-content h2",
+    ".footer-message h2",
+  ].join(",");
+
+  const results = await page.locator(selectors).evaluateAll((elements) => elements.map((element) => {
+    const style = getComputedStyle(element);
+    return {
+      text: (element.textContent ?? "").normalize("NFC"),
+      font: style.fontFamily,
+      overflowX: element.scrollWidth > element.clientWidth + 1,
+      replacement: (element.textContent ?? "").includes("�"),
+    };
+  }));
+
+  expect(results.length).toBeGreaterThan(8);
+  for (const result of results) {
+    expect(result.text).toBe(result.text.normalize("NFC"));
+    expect(result.font).toContain("Times New Roman");
+    expect(result.overflowX).toBeFalsy();
+    expect(result.replacement).toBeFalsy();
+  }
+});
