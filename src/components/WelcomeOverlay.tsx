@@ -49,7 +49,7 @@ export function WelcomeOverlay() {
     }
 
     timeline
-      .fromTo(".welcome-book", { y: 28, rotationX: -6, scale: 0.95, autoAlpha: 0 }, { y: 0, rotationX: 0, scale: 1, autoAlpha: 1, duration: 0.74 })
+      .fromTo(".welcome-book", { xPercent: -50, yPercent: -50, y: 28, rotationX: -6, scale: 0.95, autoAlpha: 0 }, { xPercent: -50, yPercent: -50, y: 0, rotationX: 0, scale: 1, autoAlpha: 1, duration: 0.74 })
       .fromTo(".welcome-title > *", { y: 22, autoAlpha: 0 }, { y: 0, autoAlpha: 1, stagger: 0.08, duration: 0.52 }, "-=.36")
       .fromTo(".welcome-spark", { scale: 0, rotation: -18, autoAlpha: 0 }, { scale: 1, rotation: 0, autoAlpha: 1, stagger: 0.07, duration: 0.42 }, "-=.34")
       .fromTo(".welcome-book-badge", { y: 10, autoAlpha: 0 }, { y: 0, autoAlpha: 1, duration: 0.42 }, "-=.3");
@@ -103,24 +103,22 @@ export function WelcomeOverlay() {
         duration: 0.22,
       })
       .to(".welcome-book", {
-        x: -82,
-        y: -8,
-        scale: 0.88,
-        rotation: -5,
+        x: -64,
+        y: -6,
+        scale: 0.92,
+        rotation: -3,
         autoAlpha: 0,
-        filter: "blur(4px)",
-        duration: 0.44,
-      }, 0.06)
+        duration: 0.32,
+      }, 0.04)
       .to(".welcome-title", {
-        x: 34,
+        x: 20,
         autoAlpha: 0,
-        filter: "blur(3px)",
-        duration: 0.34,
-      }, 0.08)
+        duration: 0.26,
+      }, 0.06)
       .to(".welcome-shell", {
         autoAlpha: 0,
-        duration: 0.38,
-      }, 0.18);
+        duration: 0.28,
+      }, 0.12);
   }
 
   if (!visible) return null;
